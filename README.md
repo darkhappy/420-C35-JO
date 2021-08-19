@@ -2,21 +2,22 @@
 
 Programmation III
 
+## Exercices
+
+- [Exécution d'un programme](Documents/ATE2.md)
+
 ## Ateliers
 
-- [Données d'un programme](Ateliers/ATE1.md)
-- [Exécution d'un programme](Ateliers/ATE2.md)
-- [Priorité des opérations](Ateliers/ATE3.md)
+- [Données d'un programme](Documents/ATE1.md)
+- [Structure de données](Documents/ATE2.md)
+- [Priorité des opérations](Documents/ATE3.md)
 
 ## Travaux
 
-- [Recherche de chemin](Travaux/TP1.md)
-- [Encodage et compression](Travaux/TP2.md)
-- [Arborescence](Travaux/TP3.md)
+- [Recherche de chemin](Documents/TP1.md)
+- [Encodage et compression](Documents/TP2.md)
+- [Arborescence](Documents/TP3.md)
 
 ## Références
 
-- [Java](References/JAVA.md)
-- [Assembleur](References/ASM.md)
-- [C](References/C.md)
-- [C++](References/CPP.md)
+- [Données](Documents/Data.md)
