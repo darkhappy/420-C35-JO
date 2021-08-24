@@ -2,15 +2,12 @@
 
 Programmation III
 
-## Exercices
-
-- [Exécution d'un programme](Documents/ATE2.md)
-
 ## Ateliers
 
 - [Données d'un fichier](Documents/ATE1.md)
-- [Structure de données](Documents/ATE2.md)
-- [Priorité des opérations](Documents/ATE3.md)
+- [Exécution d'un programme](Documents/ATE2.md)
+- [Structure de données](Documents/ATE3.md)
+- [Priorité des opérations](Documents/ATE4.md)
 
 ## Travaux
 
@@ -21,3 +18,4 @@ Programmation III
 ## Références
 
 - [Données](Documents/Data.md)
+- [Langage C](Documents/C.md)
