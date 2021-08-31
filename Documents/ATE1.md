@@ -65,3 +65,50 @@ public static void printUsage() {
 
 Il est possible de passer des paramètres lors de l'exécution d'un programme, ce que l'on nomme des arguments. Sous l'éditeur « IntelliJ IDEA », les arguments peuvent être spécifiés en éditant la configuration de compilation :
 
+![Configuration](Images/IDEA/Configuration.png)
+
+![Arguments](Images/IDEA/Arguments.png)
+
+La procédure principale comporte un paramètre « args », qui consiste en un tableau de chaînes de caractères, dans lequel sont stockés automatiquement les arguments passés au programme. Il serait possible de les afficher de cette façon :
+
+```java
+public static void main(String[] args) {
+  for (int i = 0; i < args.length; i++)
+    System.out.println(args[i]);
+}
+```
+
+## Exemples
+
+À partir d'un fichier texte nommé « texte.txt » ayant comme contenu :
+
+```
+Contenu d'un fichier texte
+afin de tester mon premier atelier
+du cours de Programmation III
+de Techniques de l'Informatiques.
+```
+
+Le résultat avec l'argument « -f texte.txt » sera :
+
+![Arguments](Images/IDEA/Exemple1.png)
+
+Le résultat avec les arguments « -o 75 -l 18 -f texte.txt » sera :
+
+![Arguments](Images/IDEA/Exemple2.png)
+
+Et le résultat avec les arguments « -o 98 -l 28 -f texte.txt » sera :
+
+![Arguments](Images/IDEA/Exemple3.png)
+
+*Il est à noter, dans la section ASCII, que les caractères de contrôle (les sauts de ligne par exemple) doivent être remplacés par le caractère « . ».*
+
+## Couleurs
+
+Il est possible, en ligne de commande, de modifier la couleur d'affichage des caractères à l'aide d'une balise spéciale :
+
+```java
+System.out.println("\u001B[33m Jaune");
+System.out.println("\u001B[36m Cyan");
+System.out.println("\u001B[37m Blanc");
+```
