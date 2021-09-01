@@ -131,7 +131,7 @@ La visualisation des données brutes permet d'apprendre et comprendre comment el
 
 ### Chaînes de caractères
 
-Il est possible, à l'aide du programme développé dans cet atelier, de déterminer le mot de passe du programme « CrackMe1.exe ».
+Il est possible, à l'aide du programme développé dans cet atelier, de déterminer le mot de passe du programme « ![CrackMe1.exe](Fichiers/CrackMe1.exe) ».
 
 Un argument -s (facultatif, valeur par défaut : 4) pourrait permettre d'afficher les chaines de caractères du fichier, plutôt que ses données, selon la taille minimum passée en paramètre.
 
@@ -149,7 +149,12 @@ Par exemple, le résultat avec les arguments « -l 534 -f CrackMe1.exe -s » ser
 
 ### Format
 
-Il est possible, à l'aide du programme développé dans cet atelier, de déterminer le système d'exploitation et le processeur cible des programmes « ProgrammeX.exe ».
+Il est possible, à l'aide du programme développé dans cet atelier, de déterminer le système d'exploitation et le processeur cible des programmes « ProgrammeX.exe » :
+
+- ![ProgrammeA.exe](Fichiers/ProgrammeA.exe)
+- ![ProgrammeB.exe](Fichiers/ProgrammeB.exe)
+- ![ProgrammeC.exe](Fichiers/ProgrammeC.exe)
+- ![ProgrammeD.exe](Fichiers/ProgrammeD.exe)
 
 Outre les fichiers texte, le contenu de fichiers binaires est, pour la grande majorité, structuré selon le type de contenu, ce que l'on nomme « format ». Dans le contexte de la programmation, ce sont principalement des fichiers exécutables qui sont produits, et, tout comme les autres, ceux-ci sont structurés selon un format particulier.
 
@@ -166,3 +171,13 @@ Par exemple, le résultat avec les arguments « -f ProgrammeA.exe -i » sera :
 ![Exécutable](Images/IDEA/Target.png)
 
 *Il est à noter que le chapitre concernant le « boutisme » n'est pas à négliger pour les valeurs de certaines structures.*
+
+## Barème
+
+Gestion des arguments et paramètres	/ 2<br>
+Gestion du fichier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	/ 2<br>
+Utilisation de « printf » &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 1<br>
+Affichage des données	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 5<br>
+Affichage des chaînes de caractères	&nbsp;&nbsp; / 3<br>
+Affichage d'informations du format &nbsp;&nbsp;&nbsp;	/ 2<br>
+Total	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 15
