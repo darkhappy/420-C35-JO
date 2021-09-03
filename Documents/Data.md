@@ -1,5 +1,3 @@
-# Données
-
 Les technologies de l'information consistent principalement à générer, traiter et stocker des données.
 
 # Binaire
