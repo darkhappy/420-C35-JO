@@ -1,16 +1,40 @@
+# Architecture
+
+...
+
+## Harvard
+
+...
+
+## Von Neumann
+
+...
 
 # Unités système
 
-![Unités système](Images/ASM/Execution.png)
+...
 
-# Registres
+## Mémoire centrale
+
+La mémoire centrale, ou mémoire vive, est la « mémoire à court terme » de l'ordinateur et son rôle est de lire et stocker les données lors des opérations du processeur.
+
+![Mémoire](Images/ASM/RAM.png)
+
+Chaque octet de la mémoire centrale est associé à une adresse.
+
+## Unité centrale de traitement
+
+L'unité centrale de traitement, ou processeur, est le « cerveau » de l'ordinateur et son rôle est d'exécuter les opérations.
+
+![Processeur](Images/ASM/CPU.png)
+
+### Registres
 
 Les registres sont des espaces mémoires particuliers auxquelles le processeur peut accéder directement, avec un très faible temps d'accès, puisqu'ils sont situés dans le processeur.
 
 Les registres sont impliqués dans la quasi-totalité des instructions que le processeur peut accomplir. Leur nombre est très limité et leur taille est variable. 16 bits pour un processeur dit 16 bits, 32 bits pour un processeur dit 32 bits, 64 bits pour un processeur dit 64 bits, etc.
 
-## Données
-
+#### Données
 
 Parmi la quinzaine de registres qu'offrait le processeur 8086 d'Intel, 4 registres de 16 bits étaient disponibles pour usage courant. On nomme ces registres : AX, BX, CX et DX.
 
@@ -27,8 +51,7 @@ Les registres de données peuvent être utilisés librement par le programmeur p
 - CX sert régulièrement à gérer des structures itératives.
 - DX sert à quelques instructions mathématiques.
 
-## Segments
-
+#### Segments
 
 Parmi les autres registres, 4 registres de segment servent à pointer les sections de mémoire où se trouvent les différentes parties d’un programme.
 
@@ -36,7 +59,7 @@ Le registre CS « Code Segment » pointe l’adresse du segment de mémoire qui 
 
 ![Segments](Images/ASM/Segments.png)
 
-## Pointeurs
+#### Pointeurs
 
 D’autres registres servent aussi de pointeurs en mémoire centrale.
 
@@ -44,8 +67,7 @@ Le registre IP « Instruction Pointer » contient l’adresse-mémoire de la pro
 
 ![Pointeurs](Images/ASM/Pointers.png)
 
-## Indicateurs
-
+#### Indicateurs
 
 Le processeur a été conçu afin qu'il ne cesse jamais de fonctionner. Un mécanisme interne est donc nécessaire afin que le ou la programmeur puisse faire le suivi des opérations.
 
@@ -55,3 +77,7 @@ Un registre d'indicateurs « flags » est disponible à cet effet. Chacun de ses
 - « ZF (Zero Flag) » est vrai (1) si le résultat de la dernière opération est 0.
 - « SF (Sign Flag) » est vrai (1) lorsque le signe change.
 - ...
+
+### Opérations
+
+L'ensemble des instructions (Instruction Set) consiste à toutes les opérations (Operation Code) qu'un processeur peux exécuter.
