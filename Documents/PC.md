@@ -66,4 +66,4 @@ Un registre d'indicateurs « flags » est disponible à cet effet. Chacun de ses
 
 ## Opérations
 
-L'ensemble des instructions (Instruction Set) consiste à toutes les opérations (Operation Code) qu'un processeur peux exécuter.
+L'ensemble des instructions (Instruction Set) consiste à toutes les opérations (Operation Code) qu'un processeur peut exécuter.
