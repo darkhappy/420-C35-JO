@@ -50,7 +50,7 @@ Le bit le plus fort est donc utilisé afin d'indiquer si la valeur est positive 
 
 Pour pallier ces problèmes, le complément à deux est utilisé pour effectuer la négation, c'est-à-dire que tous les bits sont inversés puis 1 est ajouté. Donc, pour représenter la valeur négative « -2 », nous devons appliquer le complément à deux sur la valeur « 2 » :
 
-0010 (2) --[ inversion de tous les bits ]--> 1101 --[ ajout de 1 ]--> 1110 (-2)
+![Complément à deux](Images/ASM/BinaryTwosComplement.png)
 
 Donc chaque fois que le bit le plus fort est 1, c'est que la valeur est encodée avec le complément à deux :
 
