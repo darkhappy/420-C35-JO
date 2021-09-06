@@ -44,10 +44,7 @@ Si les valeurs entières sont stockés tels quels, sous forme binaire, en mémoi
 
 Le bit le plus fort est donc utilisé afin d'indiquer si la valeur est positive (0) ou négative (1). Mais cette façon de faire cause des problèmes : il y a deux 0, un positif et un négatif, et les résultats d'opérations arithmétiques ne sont plus valides lorsque des valeurs négatives sont impliquées :
 
-&nbsp;&nbsp;&nbsp;1010 (-2)<br>
-\+ 0001 ( 1)<br>
-------------<br>
-&nbsp;&nbsp;&nbsp;1011 (<span style="color:red">-3</span>)
+![Mauvaise représentation](Images/ASM/WrongBinarySum.png)
 
 ## Complément à deux
 
@@ -57,10 +54,7 @@ Pour pallier ces problèmes, le complément à deux est utilisé pour effectuer 
 
 Donc chaque fois que le bit le plus fort est 1, c'est que la valeur est encodée avec le complément à deux :
 
-&nbsp;&nbsp;&nbsp;1110 (-2)<br>
-\+ 0001 ( 1)<br>
-------------<br>
-&nbsp;&nbsp;&nbsp;1111 (<span style="color:green">-1</span>)
+![Bonne représentation](Images/ASM/GoodBinarySum.png)
 
 # Plage
 
