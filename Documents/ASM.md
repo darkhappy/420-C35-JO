@@ -58,7 +58,7 @@ push word [adresse] ; Mémoire
 
 Le registre « SP », qui pointe où se trouve le dessus de la pile du programme en mémoire centrale, est décrémenté lors de chaque empilement.
 
-![Empiler](Images/ASM/ASMPUSH.png)
+![Empiler](Images/ASM/Push.png)
 
 ## POP
 
@@ -71,7 +71,7 @@ pop word [adresse] ; Mémoire
 
 Le registre « SP », qui pointe où se trouve le dessus de la pile du programme en mémoire centrale, est incrémenté lors de chaque dépilement.
 
-![Dépiler](Images/ASM/ASMPOP.png)
+![Dépiler](Images/ASM/Pop.png)
 
 ## CALL
 
