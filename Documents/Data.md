@@ -134,3 +134,5 @@ Une chaîne de caractères n’est qu’en réalité une suite de caractères en
 La représentation des réels est un peu plus particulière et utilise, à la base, une norme « IEEE », principalement la 754.
 
 La plupart des langages de programmation comportent plusieurs types de réels, habituellement à simple précision (environ 7 chiffres après la virgule) :
+
+![Réel](Images/ASM/Float.png)
