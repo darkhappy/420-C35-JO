@@ -127,12 +127,16 @@ Les caractères non plus ne sont pas des valeurs. Des tables sont plutôt utilis
 
 ### Chaîne de caractères
 
-Une chaîne de caractères n’est qu’en réalité une suite de caractères en mémoire.
+Une chaîne de caractères n’est qu’en réalité une suite de caractères se terminant par la valeur 0.
 
 ## Réel
 
 La représentation des réels est un peu plus particulière et utilise, à la base, une norme « IEEE », principalement la 754.
 
-La plupart des langages de programmation comportent plusieurs types de réels, habituellement à simple précision (environ 7 chiffres après la virgule) :
+La plupart des langages de programmation comportent deux types réels. À simple précision (de 6 à 9 chiffres après la virgule) :
 
-![Réel](Images/ASM/Float.png)
+![Réel simple précision](Images/ASM/Float.png)
+
+Et à double précision (de 15 à 17 chiffres après la virgule) :
+
+![Réel double précision](Images/ASM/Double.png)
