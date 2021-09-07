@@ -99,7 +99,7 @@ nasm programme.asm -o programme.exe
 
 L'exécution, du programme ci-dessous, doit être analysé ligne par ligne :
 
-```Assembly
+```Assembly {.line-numbers}
 ; En-tête du programme.
 
 ; Point d'entré du programme
