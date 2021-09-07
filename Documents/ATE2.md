@@ -99,32 +99,32 @@ nasm programme.asm -o programme.exe
 
 L'exécution, du programme ci-dessous, doit être analysé ligne par ligne :
 
-```Assembly {.line-numbers}
+```Assembly
 ; En-tête du programme.
 
 ; Point d'entré du programme
-  xor rax, rax
-  push rax
+  xor rax, rax ; Ligne 1
+  push rax     ; Ligne 2
 
-  mov ah, 125
-  mov al, 135
-  add ah, al
+  mov ah, 125  ; Ligne 3
+  mov al, 135  ; Ligne 4
+  add ah, al   ; Ligne 5
 
-  mov rbx, 2
-  mov rcx, 4
-  call Swap
+  mov rbx, 2   ; Ligne 6
+  mov rcx, 4   ; Ligne 7
+  call Swap    ; Ligne 8
 
-  pop rdx
+  pop rdx      ; Ligne 9
 
   ; Point de sortie du programme
 
-Swap:
-  push rbx
-  push rcx
-  pop rbx
-  pop rcx
+Swap:          ; Ligne 10
+  push rbx     ; Ligne 11
+  push rcx     ; Ligne 12
+  pop rbx      ; Ligne 13
+  pop rcx      ; Ligne 14
 
-  ret
+  ret          ; Ligne 15
 ```
 
 ## Débogage
@@ -151,10 +151,10 @@ Dans le cadre de cet atelier, il est préférable de passer en vision texte à l
 
 ## Questions
 
-- Que se passe-t-il suite à l'exécution de la ligne 6?
+- Que se passe-t-il suite à l'exécution de la ligne 1?
 - Quel registre est affecté peu importe l'instruction exécutée et pourquoi?
-- Quel autre registre est affecté suite à l'instruction de la ligne 7?
-- Est-ce que le résultat de l'instruction à la ligne 11 est valide et comment pouvons-nous nous en assurer?
-- Que se passe-t-il avec les valeurs des registres BX et CX suite aux instructions 22, 23, 24 et 25 et pourquoi?
-- Quel registre est affecté à notre insu lors de l'exécution de l'instruction à la ligne 15?
+- Quel autre registre est affecté suite à l'instruction de la ligne 2?
+- Est-ce que le résultat de l'instruction à la ligne 5 est valide et comment pouvons-nous nous en assurer?
+- Que se passe-t-il avec les valeurs des registres BX et CX suite aux instructions 11, 12, 13 et 14 et pourquoi?
+- Quel registre est affecté à notre insu lors de l'exécution de l'instruction à la ligne 8?
 - Quelle est la principale utilité de la pile des programmes exécutés en mémoire centrale?
