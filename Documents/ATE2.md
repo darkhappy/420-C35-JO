@@ -127,7 +127,7 @@ Swap:          ; Ligne 10
   ret          ; Ligne 15
 ```
 
-## Débogage
+## Débogage avec IDA
 
 IDA est un outil de rétro-ingénierie que nous utiliserons comme débogueur :
 
@@ -148,6 +148,10 @@ Le débogage peut maintenant démarrer, et les fenêtres (Code, Registres et Pil
 Dans le cadre de cet atelier, il est préférable de passer en vision texte à l'aide du menu contextuel de la fenêtre d'instructions :
 
 ![IDA](Images/IDA/IDA05.png)
+
+## Débogage avec x64dbg
+
+À venir sous peu ...
 
 ## Questions
 
