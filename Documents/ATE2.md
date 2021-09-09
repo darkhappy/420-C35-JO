@@ -79,7 +79,7 @@ GoLink /entry:Start /console kernel32.dll programme.obj
 
 ```
 nasm -f macho64 programme.asm -o programme.obj
-ld -L /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/ programme.obj -o programme -lSystem
+ld -L /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib programme.obj -o programme -lSystem
 ```
 
 ### Linux
