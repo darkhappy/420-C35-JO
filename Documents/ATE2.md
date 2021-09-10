@@ -6,9 +6,18 @@ L’atelier consiste à expérimenter l’exécution d’un programme, en mémoi
 
 Les logiciels suivants, tous gratuits, sont nécessaires à la réalisation de cet atelier :
 
+### Windows, Linux et macOS
+
 - NASM : https://nasm.us/<br>
-- GoLink : http://www.godevtool.com/ *(pour les plateformes Windows uniquement)*<br>
 - IDA : https://www.hex-rays.com/products/ida/support/download_freeware/
+
+### Windows
+
+- GoLink : http://www.godevtool.com/<br>
+
+### Cégep
+
+- x64dbg : https://x64dbg.com/ *(Plutôt que IDA)*
 
 ## Source
 
@@ -151,7 +160,27 @@ Dans le cadre de cet atelier, il est préférable de passer en vision texte à l
 
 ## Débogage avec x64dbg
 
-À venir sous peu ...
+x64dbg est un débogueur :
+
+![x64dbg](Images/X64DBG/X64DBG01.png)
+
+Un programme exécutable peut être chargé à l'aide de la première icône de la barre d'outils, ou du menu principal :
+
+![x64dbg](Images/X64DBG/X64DBG02.png)
+
+Les sections en mémoire peuvent être consultées à l'aide de l'onglet :
+
+![x64dbg](Images/X64DBG/X64DBG03.png)
+
+Le code machine peut être consulté en double-cliquant sur le segment de code du programme exécutable :
+
+![x64dbg](Images/X64DBG/X64DBG04.png)
+
+Un point d'arrêt est automatiquement appliqué à la première instruction, et il est maintenant possible d'exécuter le programme à l'aide du bouton « Exécuter » :
+
+![x64dbg](Images/X64DBG/X64DBG05.png)
+
+Il est maintenant possible de déboguer à l'aide du bouton « Step into ».
 
 ## Questions
 
