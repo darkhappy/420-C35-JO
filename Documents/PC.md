@@ -67,3 +67,8 @@ Un registre d'indicateurs « flags » est disponible à cet effet. Chacun de ses
 ## Opérations
 
 L'ensemble des instructions (Instruction Set) consiste à toutes les opérations (Operation Code) qu'un processeur peut exécuter.
+
+On distingue deux types d'architecture d'ensemble d'instructions :
+
+- C.I.S.C (Complex Instruction Set Computer)
+- R.I.S.C (Reduce Instruction Set Computer)
