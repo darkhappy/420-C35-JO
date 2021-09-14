@@ -22,7 +22,7 @@ Le format « Mark Zbikowski » est utilisé par le système d'exploitation DOS.
 
 Le format « Portable Executable » est utilisé par le système d'exploitation Windows.
 
-*[Image]*
+![MZ](Images/ASM/PE.png)
 
 ## E.L.F.
 
