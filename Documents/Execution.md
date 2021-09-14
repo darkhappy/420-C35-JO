@@ -36,7 +36,7 @@ Le format « Executable And Linkable Format » est utilisé par le système d'ex
 
 Le format « Mac Object » est utilisé par le système d'exploitation macOS.
 
-*[Image]*
+![Mach-O](Images/ASM/MachO.png)
 
 # Chargement
 
