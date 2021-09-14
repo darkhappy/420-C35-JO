@@ -22,19 +22,19 @@ Le format « Mark Zbikowski » est utilisé par le système d'exploitation DOS.
 
 Le format « Portable Executable » est utilisé par le système d'exploitation Windows.
 
-![MZ](Images/ASM/PE.png)
+![PE](Images/ASM/PE.png)
 
-*Les premières versions du système d'exploitation Windows n'étaient qu'une interface graphique par-dessus le système d'exploitation DOS. Par contre, il fallait faire la différence entre programmes graphiques et programmes console, d'où le message d'erreur dans le format MZ.*
+*Les premières versions du système d'exploitation Windows n'étaient qu'une interface graphique par-dessus le système d'exploitation DOS. Par contre, il fallait différencier les programmes graphiques des programmes console, d'où le message d'erreur dans le format MZ.*
 
 ## E.L.F.
 
 Le format « Executable And Linkable Format » est utilisé par le système d'exploitation Linux.
 
-*[Image]*
+![ELF](Images/ASM/ELF.png)
 
 ## Mach-O
 
-Le format « Mach-O » est utilisé par le système d'exploitation macOS.
+Le format « Mac Object » est utilisé par le système d'exploitation macOS.
 
 *[Image]*
 
