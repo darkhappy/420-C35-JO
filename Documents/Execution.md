@@ -16,7 +16,7 @@ Le format « Mark Zbikowski » est utilisé par le système d'exploitation DOS.
 
 ![MZ](Images/ASM/MZ.png)
 
-*Il est aussi utilisé par Window pour encapsuler son format d'exécutable, par souci de rétrocompatibilité.*
+*Il est aussi utilisé par Window pour encapsuler son format d'exécutable, par souci de rétrocompatibilité, d'où l'adresse du format suivant.*
 
 ## P.E.
 
