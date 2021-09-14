@@ -24,6 +24,8 @@ Le format « Portable Executable » est utilisé par le système d'exploitation 
 
 ![MZ](Images/ASM/PE.png)
 
+*Les premières versions du système d'exploitation Windows n'étaient qu'une interface graphique par-dessus le système d'exploitation DOS. Par contre, il fallait faire la différence entre programmes graphiques et programmes console, d'où le message d'erreur dans le format MZ.*
+
 ## E.L.F.
 
 Le format « Executable And Linkable Format » est utilisé par le système d'exploitation Linux.
