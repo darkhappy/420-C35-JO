@@ -14,9 +14,9 @@ Chaque système d'exploitation a son propre format de fichier exécutable.
 
 Le format « Mark Zbikowski » est utilisé par le système d'exploitation DOS.
 
-*Il est aussi utilisé par Window pour encapsuler son format d'exécutable, par souci de rétrocompatibilité.*
+![MZ](Images/ASM/MZ.png)
 
-*[Image]*
+*Il est aussi utilisé par Window pour encapsuler son format d'exécutable, par souci de rétrocompatibilité.*
 
 ## P.E.
 
