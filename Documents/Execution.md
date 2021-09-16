@@ -46,4 +46,4 @@ Avant son exécution, le système d'exploitation charge le programme en mémoire
 
 # Exemple
 
-Exemple d'exécution à venir suite à sa présentation au prochain cours ...
+![Exécution](Images/ASM/Execution.gif)
