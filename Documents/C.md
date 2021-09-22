@@ -75,6 +75,33 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+# Macros
+
+Ces instructions sont toutes précédées du caractère « # » et sont exécutées avant la compilation.
+
+## 4.1 Définitions
+
+Sert régulièrement à déclarer des constantes, et agit comme un « rechercher-remplacer » :
+
+```c
+#define false 0
+#define true 1
+```
+
+Ainsi, tous les termes « false » seront remplacés par 0 et tous les termes « true » seront remplacés par 1, avant la compilation.
+
+## 4.2 Inclusions
+
+Agit comme un « copier-coller » :
+
+```c
+#include <stdbool.h>
+```
+
+Ainsi, le code nécessaire sera copié du fichier « stdbool.h » et collé à l'endroit du « #include » avant la compilation.
+
+*Par exemple, pour utiliser des variables booléennes dans un projet, il faut définir le type (typedef) « bool », et définir (#define) les constantes « false » et « true ». Ces définitions ont plutôt été placées dans un fichier d'en-tête « stdbool.h », permettant ainsi de seulement l'inclure (#include) dans les projets nécessitant l'utilisation de booléens.*
+
 # Types #
 
 Le langage C offre quelques types primitifs :
@@ -96,57 +123,6 @@ Il est possible de préciser, pour les types entiers, que les valeurs peuvent qu
 |unsigned short|2 octets|65534               |
 |unsigned int  |4 octets|4294967294          |
 |unsigned long |8 octets|18446744073709551614|
-
-## Booléens ##
-
-Le langage C ne comporte pas de type booléen. Toutes les valeurs autre que 0 sont considérées comme étant vraie (true). Il est par contre possible de déclarer des constantes (true) et (false) à cet effet, ou d'inclure l'en-tête contenant ces déclarations :
-
-```C
-#include <stdbool.h>
-```
-
-## Caractères ##
-
-Les données étant numériques, les caractères (char) sont stockés sous forme d'entiers. C'est pour cette raison, en langage C, qu'ils doivent être encadrés par des apostrophes, afin de préciser qu'une conversion est nécessaire.
-
-### Table ASCII
-
-La table de conversion suivante est une norme (ASCII) utilisée depuis les premiers ordinateurs personnels.
-
-|Valeur |Caractère|Valeur |Caractère|Valeur |Caractère|Valeur |Caractère|
-|------:|---------|------:|---------|------:|---------|------:|---------|
-|**0**  |NULL     |**32** |' '      |**64** |'@'      |**96** |'`'      |
-|**1**  |         |**33** |'!'      |**65** |'A'      |**97** |'a'      |
-|**2**  |         |**34** |'"'      |**66** |'B'      |**98** |'b'      |
-|**3**  |         |**35** |'#'      |**67** |'C'      |**99** |'c'      |
-|**4**  |         |**36** |'$'      |**68** |'D'      |**100**|'d'      |
-|**5**  |         |**37** |'%'      |**69** |'E'      |**101**|'e'      |
-|**6**  |         |**38** |'&'      |**70** |'F'      |**102**|'f'      |
-|**7**  |BELL     |**39** |'''      |**71** |'G'      |**103**|'g'      |
-|**8**  |BS       |**40** |'('      |**72** |'H'      |**104**|'h'      |
-|**9**  |TAB      |**41** |')'      |**73** |'I'      |**105**|'i'      |
-|**10** |         |**42** |'*'      |**74** |'J'      |**106**|'j'      |
-|**11** |         |**43** |'+'      |**75** |'K'      |**107**|'k'      |
-|**12** |         |**44** |','      |**76** |'L'      |**108**|'l'      |
-|**13** |CR       |**45** |'-'      |**77** |'M'      |**109**|'m'      |
-|**14** |         |**46** |'.'      |**78** |'N'      |**110**|'n'      |
-|**15** |         |**47** |'/'      |**79** |'O'      |**111**|'o'      |
-|**16** |         |**48** |'0'      |**80** |'P'      |**112**|'p'      |
-|**17** |         |**49** |'1'      |**81** |'Q'      |**113**|'q'      |
-|**18** |         |**50** |'2'      |**82** |'R'      |**114**|'r'      |
-|**19** |         |**51** |'3'      |**83** |'S'      |**115**|'s'      |
-|**20** |         |**52** |'4'      |**84** |'T'      |**116**|'t'      |
-|**21** |         |**53** |'5'      |**85** |'U'      |**117**|'u'      |
-|**22** |         |**54** |'6'      |**86** |'V'      |**118**|'v'      |
-|**23** |         |**55** |'7'      |**87** |'W'      |**119**|'w'      |
-|**24** |         |**56** |'8'      |**88** |'X'      |**120**|'x'      |
-|**25** |         |**57** |'9'      |**89** |'Y'      |**121**|'y'      |
-|**26** |         |**58** |':'      |**90** |'Z'      |**122**|'z'      |
-|**27** |ESC      |**59** |';'      |**91** |'['      |**123**|'{'      |
-|**28** |         |**60** |'<'      |**92** |'\'      |**124**|'|'      |
-|**29** |         |**61** |'='      |**93** |']'      |**125**|'}'      |
-|**30** |         |**62** |'>'      |**94** |'^'      |**126**|'~'      |
-|**31** |         |**63** |'?'      |**95** |'_'      |**127**|DEL      |
 
 # Définitions de type
 
@@ -170,10 +146,6 @@ Plutôt que d'utiliser les adresses physiques de la mémoire centrale pour accé
 - Doivent contenir que des lettres, des chiffres, et des caractères '_'.
 - Doivent être différents des mots-clés du langage C.
 
-## Pointeurs ##
-
-...
-
 ## Tableaux ##
 
 ...
@@ -187,6 +159,10 @@ char chaine[18] = "Bonjour le monde!";
 ```
 
 Il est à noter qu'une chaîne de caractères doit toujours se terminer par le caractère « NULL », soit la valeur 0, d'ou la case supplémentaire du tableau.
+
+## Pointeurs ##
+
+...
 
 # Structures conditionnelles #
 
@@ -215,7 +191,7 @@ else {
 }
 ```
 
-#### Sur une ligne ####
+#### Ternaire ####
 
 ```C
 (proposition) ? instructionA() : instructionB();
