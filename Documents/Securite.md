@@ -14,3 +14,11 @@ Notions de base en sécurité logicielle.
 |Pirate (Hacker)|Personne qui utilise des ordinateurs pour accéder à d’autres système informatique, réseau ou dispositif, sans en avoir la permission.|
 |Virus|Programme informatique qui se propage en se copiant par lui-même à l’insu de l’utilisateur, et causent des dommages de toutes sortes.|
 |Vulnérabilité|Défectuosité ou lacune inhérente à la conception ou à la mise en œuvre d’un système d’information, ou à son environnement, qui pourrait être exploitée.|
+
+# Virus
+
+...
+
+# Faille de la pile d'exécution
+
+...
