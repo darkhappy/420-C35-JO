@@ -19,6 +19,6 @@ Notions de base en sécurité logicielle.
 
 ...
 
-# Faille de la pile d'exécution
+# Vulnérabilité de la pile d'exécution
 
 ...
