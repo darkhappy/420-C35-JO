@@ -2,6 +2,11 @@
 
 Programmation III
 
+## Prérequis
+
+- [Outils de développement](Guides/MSYS2.md)
+- [Environnement de développement intégré](Guides/VSC.md)
+
 ## Ateliers
 
 - [Données d'un fichier](Documents/ATE1.md)
