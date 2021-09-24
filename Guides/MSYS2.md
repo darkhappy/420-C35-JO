@@ -2,7 +2,7 @@ Collection d'outils et de librairies de développement.
 
 # Télécharment
 
-Téléchargez ![MSYS2](../Fichiers/msys2.exe)
+Téléchargez ![MSYS2](../Files/msys2.exe)
   
 # Installation
 

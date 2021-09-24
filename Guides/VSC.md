@@ -2,7 +2,7 @@
 
 # Télécharment
 
-Téléchargez ![Visual Studio Code](../Fichiers/vscode.exe)
+Téléchargez ![Visual Studio Code](../Files/vscode.exe)
 
 # Installation
 

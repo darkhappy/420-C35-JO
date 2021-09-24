@@ -146,6 +146,14 @@ Plutôt que d'utiliser les adresses physiques de la mémoire centrale pour accé
 - Doivent contenir que des lettres, des chiffres, et des caractères '_'.
 - Doivent être différents des mots-clés du langage C.
 
+## Pointeurs ##
+
+Un pointeur est une variable comme une autre, à l'exception qu'elle contient une adresse en mémoire centrale plutôt qu'une valeur.
+
+### Déclaration ###
+
+...
+
 ## Tableaux ##
 
 ...
@@ -159,10 +167,6 @@ char chaine[18] = "Bonjour le monde!";
 ```
 
 Il est à noter qu'une chaîne de caractères doit toujours se terminer par le caractère « NULL », soit la valeur 0, d'ou la case supplémentaire du tableau.
-
-## Pointeurs ##
-
-...
 
 # Structures conditionnelles #
 
@@ -225,5 +229,14 @@ while (proposition) {
   instructionA();
   instructionB();
   /// ...
+}
+```
+
+```C
+for (initialisation; proposition; post-itération) {
+  instructionA();
+  instructionB();
+  // ...
+}
 }
 ```
