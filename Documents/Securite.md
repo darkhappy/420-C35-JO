@@ -17,8 +17,30 @@ Notions de base en sécurité logicielle.
 
 # Virus
 
+En 1949, Jonh Von Neumann publie un essai « Theory of self-reproducing automata » démontrant comment un programme informatique peut être conçu afin de se répliquer par lui-même.
+
+Au niveau logiciel, il y a plusieurs façon d'infecter un programme exécutable :
+
+## Jointure
+
+...
+
+## Cavité
+
+...
+
+Des techniques d'obfuscation peuvent être ajoutées afin de rendre plus difficile la détection et compréhension de la charge utile :
+
+## Compression
+
+...
+
+## Encryption
+
 ...
 
 # Vulnérabilité de la pile d'exécution
+
+En 1988, le ver « Morris » est l'un des premiers virus capables de se répliquer par lui-même via l'Internet. L'une des vulnérabilités utilisées consiste à exploiter la pile d'exécution.
 
 ...
