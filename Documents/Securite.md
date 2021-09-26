@@ -19,23 +19,25 @@ Notions de base en sécurité logicielle.
 
 En 1949, Jonh Von Neumann publie un essai « Theory of self-reproducing automata » démontrant comment un programme informatique peut être conçu afin de se répliquer par lui-même.
 
+## Infection
+
 Au niveau logiciel, il y a plusieurs façon d'infecter un programme exécutable :
 
-## Jointure
+### Jointure
 
 ...
 
-## Cavité
+### Cavité
 
 ...
 
-Des techniques d'obfuscation peuvent être ajoutées afin de rendre plus difficile la détection et compréhension de la charge utile :
+Des techniques d'obfuscation peuvent être ajoutées afin de rendre plus difficile la détection et la compréhension de la charge utile :
 
-## Compression
+### Compression
 
 ...
 
-## Encryption
+### Encryption
 
 ...
 
