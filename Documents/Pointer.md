@@ -45,13 +45,3 @@ free(pEntier);
 Un tableau est un segment en mémoire centrale. Et la variable d'un tableau est en réalité un pointeur à l'adresse de départ de ce segment.
 
 *[Image]*
-
-## Chaîne de caractères ##
-
-Une chaîne de caractères est en réalité un tableau de caractères :
-
-```C
-char chaine[18] = "Bonjour le monde!";
-```
-
-Il est à noter qu'une chaîne de caractères doit toujours se terminer par le caractère « NULL », soit la valeur 0, d'ou la case supplémentaire du tableau.
