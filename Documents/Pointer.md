@@ -15,13 +15,13 @@ int* pEntier; // Adresse en mémoire centrale où se trouve une valeur entière.
 
 Les pointeurs permettent un meilleur contrôle sur la gestion de la mémoire. Mais certaines opérations, habituellement exécutées automatiquement par le langage de programmation, doivent maintenant être programmées.
 
-L'instruction « malloc » permet de réserver un espace en mémoire centrale selon la taille (nombre d'octets) passé en paramètre. Cette fonctione retourne l'adresse en mémoire centrale de l'espace réservé :
+L'instruction « malloc » permet de réserver un espace en mémoire centrale selon la taille (nombre d'octets) passée en paramètre. Cette fonction retourne l'adresse en mémoire centrale de l'espace réservé :
 
 ```c
 int* pEntier = malloc(4); // Réservation de 4 octets en mémoire centrale et stockage de l'adresse de cet espace dans le pointeur « pEntier ».
 ```
 
-*Si la taille d'un type vous est inconnu, la fonction « sizeof » permet de retourner le nombre d'octet qu'occupe le type passé en paramètre.*
+*Si la taille d'un type vous est inconnue, la fonction « sizeof » permet de retourner le nombre d'octets qu'occupe le type passé en paramètre.*
 
 ## Affectation ##
 
@@ -34,7 +34,7 @@ entier = *pEntier;
 
 ## Libération ##
 
-Tout espace mémoire réservé, doit aussi être libéré afin de ne pas gaspiller le précieux espace de la mémoire centrale :
+Tout espace mémoire réservé doit aussi être libéré afin de ne pas gaspiller le précieux espace de la mémoire centrale :
 
 ```c
 free(pEntier);
