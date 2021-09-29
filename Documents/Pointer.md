@@ -18,7 +18,8 @@ Les pointeurs permettent un meilleur contrôle sur la gestion de la mémoire. Ma
 L'instruction « malloc » permet de réserver un espace en mémoire centrale selon la taille (nombre d'octets) passée en paramètre. Cette fonction retourne l'adresse en mémoire centrale de l'espace réservé :
 
 ```c
-int* pEntier = malloc(4); // Réservation de 4 octets en mémoire centrale et stockage de l'adresse de cet espace dans le pointeur « pEntier ».
+// Réservation de 4 octets en mémoire centrale et stockage de l'adresse de cet espace dans le pointeur « pEntier ».
+int* pEntier = malloc(4); 
 ```
 
 *Si la taille d'un type vous est inconnue, la fonction « sizeof » permet de retourner le nombre d'octets qu'occupe le type passé en paramètre.*
