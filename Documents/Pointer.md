@@ -26,7 +26,7 @@ int* pEntier = malloc(4);
 
 ## Indirection ##
 
-Le caractère '*', lors de l'utilisation d'une variable pointeur, permet d'accéder à l'adresse en mémoire centrale :
+Le caractère '*', lors de l'utilisation d'une variable pointeur, permet d'accéder à la valeur située à l'adresse en mémoire centrale que contient le pointeur :
 
 ```c
 *pEntier = 42;
