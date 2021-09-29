@@ -11,7 +11,7 @@ int entier;   // Valeur entière.
 int* pEntier; // Adresse en mémoire centrale où se trouve une valeur entière.
 ```
 
-## Instanciation ##
+## Allocation ##
 
 Les pointeurs permettent un meilleur contrôle sur la gestion de la mémoire. Mais certaines opérations, habituellement exécutées automatiquement par le langage de programmation, doivent maintenant être programmées.
 
