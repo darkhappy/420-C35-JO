@@ -23,13 +23,22 @@ int* pEntier = malloc(4); // Réservation de 4 octets en mémoire centrale et st
 
 *Si la taille d'un type vous est inconnue, la fonction « sizeof » permet de retourner le nombre d'octets qu'occupe le type passé en paramètre.*
 
-## Affectation ##
+## Indirection ##
 
 Le caractère '*', lors de l'utilisation d'une variable pointeur, permet d'accéder à l'adresse en mémoire centrale :
 
 ```c
 *pEntier = 42;
 entier = *pEntier;
+```
+
+## Déréférencement ##
+
+Il est aussi possible d'obtenir l'adresse en mémoire centrale d'une variable non pointeur :
+
+```c
+int entier = 42;
+int* pEntier = &entier;
 ```
 
 ## Libération ##
