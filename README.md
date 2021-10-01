@@ -7,10 +7,10 @@ Programmation III
 - [Outils de développement](Guides/MSYS2.md)
 - [Environnement de développement intégré](Guides/VSC.md)
 
-## Ateliers
+## Fichiers
 
-- [Données d'un fichier](Documents/ATE1.md)
-- [Exécution d'un programme](Documents/ATE2.md)
+- [Projet C](Files/ProjetC.zip)
+- [Projet C++](Files/ProjetCPP.zip)
 
 ## Références
 
@@ -21,7 +21,12 @@ Programmation III
 - [Sécurité](Documents/Securite.md)
 - [C](Documents/C.md)
 - [Pointeur](Documents/Pointer.md)
-## Fichiers
 
-- [Projet C](Files/ProjetC.zip)
-- [Projet C++](Files/ProjetCPP.zip)
+## Structures de données
+
+- [Pile statique](Documents/ArrayStack.md)
+
+## Ateliers
+
+- [Données d'un fichier](Documents/ATE1.md)
+- [Exécution d'un programme](Documents/ATE2.md)
