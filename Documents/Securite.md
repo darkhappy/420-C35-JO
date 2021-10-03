@@ -21,25 +21,43 @@ En 1949, Jonh Von Neumann publie un essai « Theory of self-reproducing automata
 
 ## Infection
 
-Au niveau logiciel, il y a plusieurs façon d'infecter un programme exécutable :
+Au niveau logiciel, il y a plusieurs façons d'infecter un programme exécutable :
 
 ### Jointure
 
-...
+La charge utile peut être jointe à un fichier exécutable.
+
+*[Image]*
+
+Cette technique est peu utilisée puisque la taille du fichier doit être modifiée, le rendant ainsi beaucoup plus facile à détecter par les logiciels antivirus.
 
 ### Cavité
 
-...
+Les formats d'exécutables et les compilateurs laissent certains espaces libres, sans données, ce que l'on nomme des cavités :
 
-Des techniques d'obfuscation peuvent être ajoutées afin de rendre plus difficile la détection et la compréhension de la charge utile :
+*[Image]*
 
-### Compression
+La charge utile peut être stockée dans l'une de ces cavités, la rendant beaucoup plus difficile à détecter.
 
-...
+## Exécution
 
-### Encryption
+La charge utile est, la majorité du temps, déclenchée automatiquement, de façon transparente, lors de l'exécution du programme infecté.
 
-...
+### Point d'entrée
+
+*[Image]*
+
+### Détournement
+
+*[Image]*
+
+## Obfuscation
+
+Des techniques peuvent être ajoutées afin de rendre plus difficiles la détection, la compréhension, et l'analyse dynamique de la charge utile.
+
+### Emballeur
+
+La plupart des maliciels modernes utilisent un emballeur (packer), c'est-à-dire que la charge utile est encodée / compressée / cryptée, empêchant l'analyser de ses instructions sans préalablement les décoder.
 
 # Vulnérabilité de la pile d'exécution
 

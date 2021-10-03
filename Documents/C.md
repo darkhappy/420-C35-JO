@@ -216,5 +216,4 @@ for (initialisation; proposition; post-itération) {
   instructionB();
   // ...
 }
-}
 ```
