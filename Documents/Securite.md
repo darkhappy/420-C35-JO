@@ -1,19 +1,68 @@
 Notions de base en sécurité logicielle.
 
-# Glossaire
+# Vulnérabilité
 
-|Terme|Description|
-|---|---|
-|Certificat|Mécanisme cryptographique employé pour vérifier l'authenticité et l'intégrité d'un logiciel.|
-|Charge utile (Payload)|Partie active d'un logiciel malveillant.|
-|Cyberattaque|Recours à des techniques électroniques visant à perturber, manipuler, détruire ou scruter clandestinement un système informatique, un réseau ou un dispositif.|
-|Cybermenace|Entité malveillante profitant d’une vulnérabilité connue en vue d’exploiter un système informatique, un réseau ou un dispositif.|
-|Exploit|Une manière définie de transgresser la sécurité d'un système informatique, un réseau ou un dispositif, par l'entremise d'une vulnérabilité.|
-|Jour zéro (Zeroday)|Vulnérabilité logicielle dont l’existence n’est pas encore connue du fournisseur et qui n’est donc pas atténuée. Un exploit de jour zéro désigne une attaque qui exploite une vulnérabilité de jour zéro.|
-|Maliciel (Malware)|Logiciel malveillant conçu pour infiltrer un système informatique, un réseau ou un dispositif.|
-|Pirate (Hacker)|Personne qui utilise des ordinateurs pour accéder à d’autres système informatique, réseau ou dispositif, sans en avoir la permission.|
-|Virus|Programme informatique qui se propage en se copiant par lui-même à l’insu de l’utilisateur.|
-|Vulnérabilité|Défectuosité ou lacune inhérente à la conception ou à la mise en œuvre d’un système d’information, ou à son environnement, qui pourrait être exploitée.|
+Lors de l'implémentation d'un programme, des failles peuvent être créées, le rendant vulnérable aux exploits.
+
+## Débordement
+
+Les langages de bas niveau laissent beaucoup de latitude au niveau de l'utilisation de la mémoire à l'aide de pointeurs. Mais une irresponsabilité ou une méconnaissance du fonctionnement de l'exécution d'un programme peut engendrer des vulnérabilités.
+
+### Tampon
+
+Exemple d'un programme vulnérable écrit en langage C :
+
+```c
+#include <string.h>
+#include <stdio.h>
+
+int authenticate(char* password) {
+  int isAuthenticate = 0;
+  char buffer[10];
+
+  strcpy(buffer, password);
+  if (!strcmp(buffer, "!1q@2w#3e"))
+    isAuthenticate = 1;
+
+  return isAuthenticate;
+}
+
+int main(int argc, char* argv[]) {
+  if (argc < 2) {
+    printf("Usage: %s <password>\n", argv[0]);
+    return 0;
+  }
+
+  printf((authenticate(argv[1])) ? "Access granted :)\n" : "Access denied :(\n");
+  return 0;
+}
+```
+
+Si le programme ci-dessus est sommairement testé, ses résultats semblent tout à fait normaux :
+
+```
+> authenticate
+Usage: authenticate <password>
+> authenticate 123456
+Access denied :(
+> authenticate !1q@2w#3e
+Access granted :)
+```
+
+Alors qu'il y a une faille béante :
+
+```
+> authenticate abcdefghijk
+Access granted :)
+```
+
+...
+
+## Pile d'exécution
+
+En 1988, le ver « Morris » est l'un des premiers virus capables de se répliquer par lui-même via l'Internet. L'une des vulnérabilités utilisées consiste à exploiter la pile d'exécution.
+
+...
 
 # Virus
 
@@ -59,8 +108,17 @@ Des techniques peuvent être ajoutées afin de rendre plus difficiles la détect
 
 La plupart des maliciels modernes utilisent un emballeur (packer), c'est-à-dire que la charge utile est encodée / compressée / cryptée, empêchant l'analyser de ses instructions sans préalablement les décoder.
 
-# Vulnérabilité de la pile d'exécution
+# Glossaire
 
-En 1988, le ver « Morris » est l'un des premiers virus capables de se répliquer par lui-même via l'Internet. L'une des vulnérabilités utilisées consiste à exploiter la pile d'exécution.
-
-...
+|Terme|Description|
+|---|---|
+|Certificat|Mécanisme cryptographique employé pour vérifier l'authenticité et l'intégrité d'un logiciel.|
+|Charge utile (Payload)|Partie active d'un logiciel malveillant.|
+|Cyberattaque|Recours à des techniques électroniques visant à perturber, manipuler, détruire ou scruter clandestinement un système informatique, un réseau ou un dispositif.|
+|Cybermenace|Entité malveillante profitant d’une vulnérabilité connue en vue d’exploiter un système informatique, un réseau ou un dispositif.|
+|Exploit|Une manière définie de transgresser la sécurité d'un système informatique, un réseau ou un dispositif, par l'entremise d'une vulnérabilité.|
+|Jour zéro (Zeroday)|Vulnérabilité logicielle dont l’existence n’est pas encore connue du fournisseur et qui n’est donc pas atténuée. Un exploit de jour zéro désigne une attaque qui exploite une vulnérabilité de jour zéro.|
+|Maliciel (Malware)|Logiciel malveillant conçu pour infiltrer un système informatique, un réseau ou un dispositif.|
+|Pirate (Hacker)|Personne qui utilise des ordinateurs pour accéder à d’autres système informatique, réseau ou dispositif, sans en avoir la permission.|
+|Virus|Programme informatique qui se propage en se copiant par lui-même à l’insu de l’utilisateur.|
+|Vulnérabilité|Défectuosité ou lacune inhérente à la conception ou à la mise en œuvre d’un système d’information, ou à son environnement, qui pourrait être exploitée.|
