@@ -91,15 +91,3 @@ Saisissez l'instruction suivante pour quitter le terminal :
 ```
 exit
 ```
-
-## Configuration
-
-Dans le menu « Démarrer » de Windows, saisissez « variable » et cliquez sur « Modifier les variables d'environnement système » :
-
-![18](Images/MSYS216.png)
-
-![19](Images/MSYS217.png)
-
-![20](Images/MSYS218.png)
-
-![21](Images/MSYS219.png)
