@@ -10,7 +10,7 @@ L'implémentation statique permet d'utiliser une file dont la taille est fixe en
 
 ### UML ###
 
-![](../Images/ArrayQueueUML.png)
+![](Images/ArrayQueueUML.png)
 
 ### Implémentation ###
 
