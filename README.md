@@ -1,6 +1,6 @@
-# 420-C35-JO
+# 420-C35-JO : Programmation III
 
-Programmation III
+![CCL](Documents/Images/by-nc-nd.png)
 
 ## Prérequis
 
