@@ -10,52 +10,6 @@ Les langages de bas niveau laissent beaucoup de latitude au niveau de l'utilisat
 
 ### Tampon
 
-Exemple d'un programme vulnérable écrit en langage C :
-
-```c
-#include <string.h>
-#include <stdio.h>
-
-int authenticate(char* password) {
-  int isAuthenticate = 0;
-  char buffer[10];
-
-  strcpy(buffer, password);
-  if (!strcmp(buffer, "!1q@2w#3e"))
-    isAuthenticate = 1;
-
-  return isAuthenticate;
-}
-
-int main(int argc, char* argv[]) {
-  if (argc < 2) {
-    printf("Usage: %s <password>\n", argv[0]);
-    return 0;
-  }
-
-  printf((authenticate(argv[1])) ? "Access granted :)\n" : "Access denied :(\n");
-  return 0;
-}
-```
-
-Si le programme ci-dessus est sommairement testé, ses résultats semblent tout à fait normaux :
-
-```
-> authenticate
-Usage: authenticate <password>
-> authenticate 123456
-Access denied :(
-> authenticate !1q@2w#3e
-Access granted :)
-```
-
-Alors qu'il y a une faille béante :
-
-```
-> authenticate abcdefghijk
-Access granted :)
-```
-
 ...
 
 ## Pile d'exécution
