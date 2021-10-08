@@ -6,6 +6,7 @@
 
 - [Outils de développement](Guides/MSYS2.md)
 - [Environnement de développement intégré](Guides/VSC.md)
+- [Normes de programmation](Documents/Normes.md)
 
 ## Fichiers
 
