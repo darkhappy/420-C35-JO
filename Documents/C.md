@@ -148,6 +148,8 @@ Plutôt que d'utiliser les adresses physiques de la mémoire centrale pour accé
 
 # Structures conditionnelles #
 
+Les structures conditionnelles permettent aux programmes d'exécuter différents blocs de code selon une proposition.
+
 ## Si ##
 
 ```C
@@ -185,6 +187,8 @@ valeurA = (proposition) ? valeurB : valeurC;
 
 # Structure de routage #
 
+La structure de routage permet aux programmes d'exécuter différents blocs de code selon une valeur.
+
 ```C
 switch (valeur) {
   case valeurA:
@@ -201,6 +205,8 @@ switch (valeur) {
 ```
 
 # Structures itératives #
+
+Les structures itératives permettent aux programmes d'exécuter un bloc de code à plusieurs reprises selon une proposition.
 
 ```C
 while (proposition) {

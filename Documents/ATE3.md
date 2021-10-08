@@ -38,14 +38,14 @@ Le projet devra inclure la classe pour utiliser des chaînes de caractères, la 
 using namespace std;
 
 ///\brief Transformation d'une expression infixe en expression postfixe.
-///\param expressionQueue File contenant les opérandes et des opérateurs de l'expression infixe.
+///\param expressionQueue File contenant les opérandes et les opérateurs de l'expression infixe.
 ///\return File de l'expression postfixe.
 ArrayQueue<string>* infixToPostfix(ArrayQueue<string>* expressionQueue) {
   // TODO : Implémentation ...
 }
 
 ///\brief Calcul du résultat d'un expression postfixe.
-///\param postfixQueue File contenant les opérandes et des opérateurs de l'expression postfixe.
+///\param postfixQueue File contenant les opérandes et les opérateurs de l'expression postfixe.
 ///\return Résultat de l'expression postfixe.
 int postfixToResult(ArrayQueue<string>* postfixQueue) {
   // TODO: Implémentation ...
