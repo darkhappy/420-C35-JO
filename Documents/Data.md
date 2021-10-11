@@ -30,13 +30,7 @@ La même logique peut être utilisée avec la base 2 afin de convertir le nomb
 
 Plutôt que de multiplier par la base, c'est la division entière qui est utilisée pour effectuer la conversion. Le reste à cette division est ajouté au résultat, de droite à gauche, jusqu'à ce que le nombre entier décimal soit 0 :
 
-42 / *2* =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**0**<br>
-21 / *2* =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**10**<br>
-10 / *2* =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**010**<br>
-&nbsp;5 / *2* =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1010**<br>
-&nbsp;2 / *2* =&nbsp;&nbsp;&nbsp;**01010**<br>
-&nbsp;1 / *2* = **101010**<br>
-&nbsp;0 / *2* = **101010**
+![Décimal à Binaire](Images/ASM/DecToBin.png)
 
 # Signe
 
