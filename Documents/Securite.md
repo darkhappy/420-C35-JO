@@ -24,6 +24,12 @@ Les formats d'exécutables et les compilateurs laissent certains espaces libres,
 
 La charge utile peut être stockée dans l'une de ces cavités, la rendant beaucoup plus difficile à détecter.
 
+## Somme de contrôle
+
+Une somme de contrôle permet de détecter et de contrer l'altération d'exécutable.
+
+...
+
 ## Exécution
 
 La charge utile est, la majorité du temps, déclenchée automatiquement, de façon transparente, lors de l'exécution du programme infecté.
@@ -63,6 +69,12 @@ Les langages de bas niveau laissent beaucoup de latitude au niveau de l'utilisat
 Lors de l'exécution, puisque les données, les instructions, ainsi que la pile sont toutes dans la même région de la mémoire centrale, il est possible d'exploiter la pile d'exécution à l'aide de débordement de données.
 
 *[Exemple]*
+
+## Pile fantôme
+
+Les nouvelles architectures de processeur d'ordinateur personnel mettront en application la technologie C.E.T. (Control-flow Enforcement Technology) ajoutant une pile fantôme afin de détecter et contrer le détournement d'exécution.
+
+...
 
 # Glossaire
 
