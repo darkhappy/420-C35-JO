@@ -34,7 +34,7 @@ La charge utile est, la majorité du temps, déclenchée automatiquement, de fa�
 
 ### Détournement
 
-Il est aussi possible de détourner l'exécution d'une fonction en exploitant la vulnérabilité de la pile d'exécution comme expliqué un peu plus loin.
+Il est aussi possible de détourner l'exécution d'une fonction en exploitant la vulnérabilité de la pile d'exécution.
 
 ## Obfuscation
 
