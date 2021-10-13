@@ -60,17 +60,17 @@ En 1988, le ver « Morris » est l'un des premiers virus capables de se répliqu
 
 ...
 
-## Débordement
+### Débordement
 
 Les langages de bas niveau laissent beaucoup de latitude au niveau de l'utilisation de la mémoire à l'aide de pointeurs. Mais une irresponsabilité ou une méconnaissance du fonctionnement de l'exécution d'un programme peut engendrer des vulnérabilités.
 
-### Tampon
+#### Tampon
 
 Lors de l'exécution, puisque les données, les instructions, ainsi que la pile sont toutes dans la même région de la mémoire centrale, il est possible d'exploiter la pile d'exécution à l'aide de débordement de données.
 
 *[Exemple]*
 
-## Pile fantôme
+### Pile fantôme
 
 Les nouvelles architectures de processeur d'ordinateur personnel mettront en application la technologie C.E.T. (Control-flow Enforcement Technology) ajoutant une pile fantôme afin de détecter et contrer le détournement d'exécution.
 
