@@ -34,7 +34,7 @@ La charge utile est, la majorité du temps, déclenchée automatiquement, de fa�
 
 ### Détournement
 
-*[Image]*
+Il est aussi possible de détourner l'exécution d'un programme en exploitant la vulnérabilité de la pile d'exécution comme expliqué un peu plus loin.
 
 ## Obfuscation
 
