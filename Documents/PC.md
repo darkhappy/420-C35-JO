@@ -8,6 +8,10 @@ La mémoire centrale, ou mémoire vive, est la « mémoire à court terme » de 
 
 Chaque octet de la mémoire centrale est associé à une adresse.
 
+## Boutisme
+
+En gros boutisme (big endian), les données sont lues de gauche à droite, tandis qu’en petit boutisme (little endian), les données sont lues de droite à gauche. Le gros boutisme est plus facilement lisible par la majorité de la population, mais en petit boutisme, les données lues en 16, 32, 64, ... bits, ont la même valeur, ce qui n’est pas le cas en gros boutisme. C'est pourquoi la majorité des processeurs d'ordinateur personnel actuels utilisent le petit boutisme.
+
 # Unité centrale de traitement
 
 L'unité centrale de traitement, ou processeur, est le « cerveau » de l'ordinateur et son rôle est d'exécuter les opérations.
@@ -62,6 +66,7 @@ Un registre d'indicateurs « flags » est disponible à cet effet. Chacun de ses
 - « OF (Overflow) » est vrai (1) s'il y a eu dépassement de capacité d'un registre lors de la dernière opération.
 - « ZF (Zero Flag) » est vrai (1) si le résultat de la dernière opération est 0.
 - « SF (Sign Flag) » est vrai (1) lorsque le signe change.
+- « CF (Carry Flag) » est vrai (1) lorsqu'il y a une retenue.
 - ...
 
 ## Opérations

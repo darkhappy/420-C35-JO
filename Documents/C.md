@@ -79,7 +79,7 @@ int main(int argc, char *argv[]) {
 
 Ces instructions sont toutes précédées du caractère « # » et sont exécutées avant la compilation.
 
-## 4.1 Définitions
+## Définitions
 
 Sert régulièrement à déclarer des constantes, et agit comme un « rechercher-remplacer » :
 
@@ -90,7 +90,7 @@ Sert régulièrement à déclarer des constantes, et agit comme un « rechercher
 
 Ainsi, tous les termes « false » seront remplacés par 0 et tous les termes « true » seront remplacés par 1, avant la compilation.
 
-## 4.2 Inclusions
+## Inclusions
 
 Agit comme un « copier-coller » :
 

@@ -20,7 +20,7 @@
 - [Assembleur](Documents/ASM.md)
 - [Exécution](Documents/Execution.md)
 - [Sécurité](Documents/Securite.md)
-- [C](Documents/C.md)
+- [Langage C](Documents/C.md)
 - [Pointeur](Documents/Pointer.md)
 
 ## Structures de données
