@@ -42,7 +42,7 @@ Le format « Mac Object » est utilisé par le système d'exploitation macOS.
 
 Avant son exécution, le système d'exploitation charge le programme en mémoire centrale et le structure en plusieurs sections :
 
-![](Images/ASM/MEMProgram.png)
+![](Images/ASM/RAMProgram.png)
 
 # Exemple
 
