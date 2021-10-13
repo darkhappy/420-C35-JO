@@ -1,25 +1,5 @@
 Notions de base en sécurité logicielle.
 
-# Vulnérabilité
-
-Lors de l'implémentation d'un programme, des failles peuvent être créées, le rendant vulnérable aux exploits.
-
-## Pile d'exécution
-
-En 1988, le ver « Morris » est l'un des premiers virus capables de se répliquer par lui-même via l'Internet. L'une des vulnérabilités utilisées consiste à exploiter la pile d'exécution.
-
-...
-
-## Débordement
-
-Les langages de bas niveau laissent beaucoup de latitude au niveau de l'utilisation de la mémoire à l'aide de pointeurs. Mais une irresponsabilité ou une méconnaissance du fonctionnement de l'exécution d'un programme peut engendrer des vulnérabilités.
-
-### Tampon
-
-Lors de l'exécution, puisque les données, les instructions, ainsi que la pile sont toutes dans la même région de la mémoire centrale, il est possible d'exploiter la pile d'exécution à l'aide de débordement de données.
-
-*[Exemple]*
-
 # Virus
 
 En 1949, Jonh Von Neumann publie un essai « Theory of self-reproducing automata » démontrant comment un programme informatique peut être conçu afin de se répliquer par lui-même.
@@ -63,6 +43,26 @@ Des techniques peuvent être ajoutées afin de rendre plus difficiles la détect
 ### Emballeur
 
 La plupart des maliciels modernes utilisent un emballeur (packer), c'est-à-dire que la charge utile est encodée / compressée / cryptée, empêchant l'analyser de ses instructions sans préalablement les décoder.
+
+# Vulnérabilité
+
+Lors de l'implémentation d'un programme, des failles peuvent être créées, le rendant vulnérable aux exploits.
+
+## Pile d'exécution
+
+En 1988, le ver « Morris » est l'un des premiers virus capables de se répliquer par lui-même via l'Internet. L'une des vulnérabilités utilisées consiste à exploiter la pile d'exécution.
+
+...
+
+## Débordement
+
+Les langages de bas niveau laissent beaucoup de latitude au niveau de l'utilisation de la mémoire à l'aide de pointeurs. Mais une irresponsabilité ou une méconnaissance du fonctionnement de l'exécution d'un programme peut engendrer des vulnérabilités.
+
+### Tampon
+
+Lors de l'exécution, puisque les données, les instructions, ainsi que la pile sont toutes dans la même région de la mémoire centrale, il est possible d'exploiter la pile d'exécution à l'aide de débordement de données.
+
+*[Exemple]*
 
 # Glossaire
 
