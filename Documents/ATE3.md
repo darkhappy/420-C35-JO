@@ -37,10 +37,17 @@ Le projet devra inclure la classe pour utiliser des chaînes de caractères, la 
 
 using namespace std;
 
+///\brief Déterminer s'il s'agit d'un opérateur.
+///\param term Terme.
+///\return S'il s'agit d'un opérateur.
+bool isOperator(string term) {
+  // TODO : Implémentation ...
+}
+
 ///\brief Obtention de la priorité d'un opérateur.
 ///\param op Opérateur.
 ///\return Priorité de l'opérateur.
-unsigned char infixToPostfix(char op) {
+unsigned char getPriority(string op) {
   // TODO : Implémentation ...
 }
 
