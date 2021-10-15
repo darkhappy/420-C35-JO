@@ -37,6 +37,13 @@ Le projet devra inclure la classe pour utiliser des chaînes de caractères, la 
 
 using namespace std;
 
+///\brief Obtention de la priorité d'un opérateur.
+///\param op Opérateur.
+///\return Priorité de l'opérateur.
+unsigned char infixToPostfix(char op) {
+  // TODO : Implémentation ...
+}
+
 ///\brief Transformation d'une expression infixe en expression postfixe.
 ///\param expressionQueue File contenant les opérandes et les opérateurs de l'expression infixe.
 ///\return File de l'expression postfixe.
