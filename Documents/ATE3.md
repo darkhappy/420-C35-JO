@@ -61,8 +61,8 @@ int postfixToResult(ArrayQueue<string>* expression) {
 ///\brief Fonction principale.
 ///\return Code de terminaison de programme.
 int main() {
-  // TODO : Déclaration et instanciation de la file infixe.
-  // TODO : Enfilement des opérandes et des opérateurs de l'expression infixe.
+  // TODO : Déclaration et instanciation d'une file.
+  // TODO : Enfilement des opérandes et des opérateurs d'un expression.
 
   // TODO : Appel des fonction pour transformer l'expression et calculer le résultat.
 
