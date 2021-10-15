@@ -45,16 +45,16 @@ unsigned char infixToPostfix(char op) {
 }
 
 ///\brief Transformation d'une expression infixe en expression postfixe.
-///\param expressionQueue File contenant les opérandes et les opérateurs de l'expression infixe.
-///\return File de l'expression postfixe.
-ArrayQueue<string>* infixToPostfix(ArrayQueue<string>* expressionQueue) {
+///\param expression Expression infixe.
+///\return Expression postfixe.
+ArrayQueue<string>* infixToPostfix(ArrayQueue<string>* expression) {
   // TODO : Implémentation ...
 }
 
 ///\brief Calcul du résultat d'un expression postfixe.
-///\param postfixQueue File contenant les opérandes et les opérateurs de l'expression postfixe.
-///\return Résultat de l'expression postfixe.
-int postfixToResult(ArrayQueue<string>* postfixQueue) {
+///\param expression Expression postfixe.
+///\return Résultat de l'expression.
+int postfixToResult(ArrayQueue<string>* expression) {
   // TODO: Implémentation ...
 }
 
