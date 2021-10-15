@@ -10,7 +10,7 @@ Une expression arithmétique est composée d'opérandes et d'opérateurs exprim�
    
 ## Infixe à Postfixe ##
 
-Les programmes informatiques, dont les compilateurs, sont confrontés à l'évaluation d'expressions arithmétiques. Afin de simplifier la tâche, les expressions sont d'abord exprimées de façon postfixe.
+Les programmes informatiques, dont les compilateurs, sont confrontés à l'évaluation d'expressions arithmétiques. Afin de simplifier la tâche, les expressions sont d'abord exprimées de façon postfixe :
 
 - Un opérande est directement ajouté à la file postfixe.
 - Une parenthèse ouvrante est empilée sur la pile d'opérateurs.
@@ -20,7 +20,7 @@ Les programmes informatiques, dont les compilateurs, sont confrontés à l'éval
   
 ## Postfixe à Résultat ##
 
-Les expressions postfixe permettent d'évaluer le résultat en respectant les priorités des opérateurs.
+Les expressions postfixe permettent d'évaluer le résultat en respectant les priorités des opérateurs :
 
 - Un opérande est directement empilé dans la pile d'opérandes.
 - Un opérateur est appliqué aux deux opérandes dépilés et le résultat empilé.
