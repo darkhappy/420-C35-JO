@@ -39,10 +39,8 @@ public:
   ///\brief Enfiler à la fin de la file
   ///\param data Donnée à enfiler
   void push(T data) {
-    if (count) {
-      last->next = new SLNode<T>(data, nullptr);
-      last = last->next;
-    }
+    if (count)
+      last = last->next = new SLNode<T>(data, nullptr);
     else
       first = last = new SLNode<T>(data, nullptr);
 
