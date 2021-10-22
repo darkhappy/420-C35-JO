@@ -94,7 +94,7 @@ Et ainsi de suite, jusqu'à atteindre la sortie.
 
 ## Projets ##
 
-La librairie graphique « SDL2 » doit préalablement être installée selon le guide MSYS2.
+La librairie graphique « SDL2 » doit préalablement être installée selon le prérequis « Outils de développement ».
 
 - [Linux](Fichiers/420C35JOTP1LINUX.zip)
 - [MacOS](Fichiers/420C35JOTP1MACOS.zip)
