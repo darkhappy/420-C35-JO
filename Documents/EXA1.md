@@ -6,7 +6,7 @@ Préparation pour l'examen de mi-session.
 
 - Être capable de faire une conversion binaire <-> décimale.
 - Être capable de déterminer une plage de valeurs.
-- Connaître comment les types primitifs (bool, int et char) sont représentés.
+- Connaître comment les types primitifs (booléen, entier, ~~réel~~, caractère et chaîne) sont représentés.
 
 ## Exécution
 
@@ -22,6 +22,7 @@ Préparation pour l'examen de mi-session.
 - ~~Connaître et être en mesure d'expliquer comment contrer un virus greffé à un programme.~~
 - ~~Connaître et être en mesure d'expliquer la vulnérabilité de la pile d'exécution en mémoire centrale.~~
 - ~~Connaître et être en mesure d'expliquer une technologie permettant de contrer la vulnérabilité de la pile d'exécution en mémoire centrale.~~
+
 ## Programmation
 
 - Connaître le processus de compilation (les modules qui interviennent entre le code source et l'exécution d'un programme).
