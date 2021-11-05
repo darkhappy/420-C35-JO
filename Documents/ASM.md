@@ -91,7 +91,7 @@ Cette instruction effectue deux opérations :
 Une fonction est déclarée à l'aide d'un identificateur suivi du caractère « : » et se termine par l'instruction « ret » :
 
 ```assembly
-identificateur:
+fonction:
   ; Instructions
   ret
 ```

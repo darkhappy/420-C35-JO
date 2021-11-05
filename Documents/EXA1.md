@@ -17,7 +17,7 @@ Préparation pour l'examen de mi-session.
 
 ## Sécurité
 
-- Être capable d'expliquer (dans vos mots) les mots du glossaire.
+- Être capable d'expliquer (dans vos mots) les termes du glossaire.
 - ~~Connaître et être en mesure d'expliquer la vulnérabilité d'un débordement de tampon.~~
 - ~~Connaître et être en mesure d'expliquer comment contrer un virus greffé à un programme.~~
 - ~~Connaître et être en mesure d'expliquer la vulnérabilité de la pile d'exécution en mémoire centrale.~~
