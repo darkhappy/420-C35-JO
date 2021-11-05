@@ -6,7 +6,7 @@ Préparation pour l'examen de mi-session.
 
 - Être capable de faire une conversion binaire <-> décimale.
 - Être capable de déterminer une plage de valeurs.
-- Connaître comment les types primitifs (booléen, entier, ~~réel~~, caractère et chaîne) sont représentés.
+- Connaître comment les types primitifs (booléen, entier, ~~réel~~, caractère, tableau et chaîne) sont représentés.
 
 ## Exécution
 
