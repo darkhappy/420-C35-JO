@@ -38,3 +38,8 @@
 ## Travaux
 
 - [Recherche de chemin](Documents/TP1.md)
+
+## Examens
+
+- [2/3 de session](Documents/EXA1.md)
+- [Fin de session](Documents/EXA2.md)
