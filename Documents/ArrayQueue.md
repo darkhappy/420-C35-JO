@@ -41,13 +41,13 @@ public:
   ///\param data Donnée à empiler
   void push(T data) {
     if (count < arrayLength)
-      array[(frontIndex + count++) % length] = data;
+      array[(frontIndex + count++) % arrayLength] = data;
   }
 
   ///\brief Défile en début de file
   void pop() {
     if (count) {
-      frontIndex = ++frontIndex % length;
+      frontIndex = ++frontIndex % arrayLength;
       count--;
     }
   }
