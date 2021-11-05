@@ -78,8 +78,13 @@ Le registre « SP », qui pointe où se trouve le dessus de la pile du programme
 L’architecture x64 permet d'appeler des fonctions :
 
 ```assembly
-call identificateur
+call fonction
 ```
+
+Cette instruction effectue deux opérations :
+
+- Empilement de l'adresse contenue dans le registre « ip ».
+- Affectation du registre « ip » par l'adresse de la fonction.
 
 ## RET
 
@@ -90,3 +95,7 @@ identificateur:
   ; Instructions
   ret
 ```
+
+Cette instruction effectue une opération :
+
+- Dépilement de l'adresse de retour dans le registre « ip ».

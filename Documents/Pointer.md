@@ -77,4 +77,37 @@ delete pEntier;
 
 Un tableau est un segment en mémoire centrale. Et la variable d'un tableau est en réalité un pointeur à l'adresse de départ de ce segment.
 
+```c
+char chaine[7] = { 'C', 'h', 'a', 'i', 'n', 'e', '\0' };
+```
+
+En réalité, la variable « chaine » est un pointeur, et donc contient une adresse de la mémoire centrale :
+
 *[Image]*
+
+Et lorsque l'opérateur « [] » d'un tableau est utilisé avec un indice :
+
+```c
+char a = chaine[2];
+```
+
+Il s'agit en réalité d'un calcul d'adresse mémoire :
+
+*[Image]*
+
+## Instanciation ##
+
+Puisqu'il s'agit d'un pointeur, un tableau peut donc aussi être instancié dynamiquement en mémoire :
+
+```cpp
+// int tabEntiers[10];
+int* tabEntiers = new int[10];
+```
+
+## Libération ##
+
+Afin de ne pas libérer que la première case d'un tableau, nous devons spécifier, à l'aide de l'opérateur « [] », que c'est un tableau qui est pointé en mémoire centrale :
+
+```cpp
+delete[] tabEntiers;
+```
