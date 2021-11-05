@@ -27,6 +27,7 @@
 
 - [Pile statique](Documents/ArrayStack.md)
 - [File statique](Documents/ArrayQueue.md)
+- [Pile dynamique](Documents/Stack.md)
 - [File dynamique](Documents/Queue.md)
 
 ## Ateliers
