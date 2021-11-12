@@ -1,8 +1,8 @@
 # Tri rapide
 
-Le tri rapide pourrait être considéré comme étant une amélioration du tri par sélection. C'est-à-dire qu’une fois l’élément trouvé, celui-ci sera déplacé à sa position finale évitant ainsi plusieurs passes des éléments à trier. Mais en plus, le tri rapide utilise la philosophie de diviser pour régner.
+Le tri rapide pourrait être considéré comme étant une amélioration du tri par sélection. C'est-à-dire qu’une fois l’élément trouvé, celui-ci sera déplacé à sa position finale. Mais en plus, le tri rapide utilise la philosophie de diviser pour régner.
 
-Plutôt que de trier tous les éléments afin de trouver le plus petit ou le plus grand, le tri rapide se contente de trouver un pivot dans les éléments à trier. Tous les éléments se trouvant avant le pivot doivent être plus petits et tous les éléments se trouvant après le pivot doivent être plus grands. À cette étape, l’élément du pivot sera à sa position finale.
+Plutôt que de trier tous les éléments afin de trouver le plus petit ou le plus grand, le tri rapide se contente de trouver un pivot dans les éléments à trier. Tous les éléments se trouvant avant le pivot doivent être plus petits et tous les éléments se trouvant après le pivot doivent être plus grands. À cette étape, l’élément du pivot sera donc à sa position finale.
 
 Ceci fait, le tri rapide recommencera, par récursivité, les mêmes opérations, mais avec la partie de gauche et de droite du pivot. Le nombre d’éléments à trier diminue donc de plus en plus et le tri par sélection devient donc de plus en plus efficace.
 
