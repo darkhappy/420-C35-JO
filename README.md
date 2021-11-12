@@ -22,6 +22,7 @@
 - [Sécurité](Documents/Securite.md)
 - [Langage C](Documents/C.md)
 - [Pointeur](Documents/Pointer.md)
+- [Tri rapide](Documents/QuickSort.md)
 
 ## Structures de données
 
