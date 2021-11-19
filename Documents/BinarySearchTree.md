@@ -31,3 +31,25 @@ Trois cas peuvent se présenter lors du retrait d'un noeud dans un arbre binaire
 - Trouver la plus grande donnée du sous-arbre de gauche, ou la plus petite donnée du sous-arbre de droite, du noeud à retirer.
 - Retirer cette donnée de l'arbre.
 - Remplacer la donnée du noeud à retirer par la plus grande, ou plus petite, donnée préalablement trouvée.
+
+## Parcours
+
+Un parcours consiste à lister toutes les données d'une structure. Mais puisque dans un arbre binaire il y a toujours 2 possibilités par noeud, l'ordre des données dans le parcours peut être différent:
+
+### Préfixe
+
+- Ajouter la donnée du noeud courant au parcours.
+- Diriger le noeud courant vers la branche de gauche s'il y a.
+- Diriger le noeud courant vers la branche de droite s'il y a.
+
+### Infixe
+
+- Diriger le noeud courant vers la branche de gauche s'il y a.
+- Ajouter la donnée du noeud courant au parcours.
+- Diriger le noeud courant vers la branche de droite s'il y a.
+
+### Postfixe
+
+- Diriger le noeud courant vers la branche de gauche s'il y a.
+- Diriger le noeud courant vers la branche de droite s'il y a.
+- Ajouter la donnée du noeud courant au parcours.
