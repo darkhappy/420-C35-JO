@@ -23,6 +23,7 @@
 - [Langage C](Documents/C.md)
 - [Pointeur](Documents/Pointer.md)
 - [Tri rapide](Documents/QuickSort.md)
+- [Arbre binaire de recherche](Documents/BinarySearchTree.md)
 
 ## Structures de données
 
