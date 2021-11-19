@@ -24,11 +24,10 @@ Trois cas peuvent se présenter lors du retrait d'un noeud dans un arbre binaire
 ### Une branche
 
 - Faire pointer la branche du parent vers l'enfant du noeud à retirer.
-- Faire pointer le parent de l'enfant du noeud à libérer vers le parent du noeud à libérer.
 - Libérer le noeud à retirer.
   
 ### Deux branches
 
 - Trouver la plus grande donnée du sous-arbre de gauche, ou la plus petite donnée du sous-arbre de droite, du noeud à retirer.
 - Retirer cette donnée de l'arbre.
-- Remplacer la donnée du noeud à retirer par la plus grande ou plus petite donnée, préalablement trouvée.
+- Remplacer la donnée du noeud à retirer par la plus grande, ou plus petite, donnée préalablement trouvée.
