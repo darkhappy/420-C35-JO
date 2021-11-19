@@ -10,17 +10,17 @@ Bien que la compréhension de l’efficacité du tri rapide ne soit pas évident
 
 ## Algorithme
 
-- Appeler le tri rapide avec l’indice minimum et l’indice maximum, de la collection d'éléments à trier, comme paramètres.
+1. Appeler le tri rapide avec l’indice minimum et l’indice maximum, de la collection d'éléments à trier, comme paramètres.
 
-- Initialiser une variable locale « gauche » et une variable locale « pivot » à l’indice minimum ainsi qu’une variable locale « droite » à l’indice maximum.
+2. Initialiser une variable locale « gauche » et une variable locale « pivot » à l’indice minimum ainsi qu’une variable locale « droite » à l’indice maximum.
 
-- Vérifier si l’élément à l’indice de gauche est supérieur à l’élément de l’indice de droite. Si c’est le cas, il faut interchanger les deux valeurs et mettre à jour le pivot. Si le pivot est égal à l’indice gauche, il faut le positionner à l’indice de droite et vice-versa.
+3. Vérifier si l’élément à l’indice de gauche est supérieur à l’élément de l’indice de droite. Si c’est le cas, il faut interchanger les deux valeurs et mettre à jour le pivot. Si le pivot est égal à l’indice gauche, il faut le positionner à l’indice de droite et vice-versa.
 
-- Suite à cette vérification, et à l’échange du pivot s’il y avait lieu, il faut mettre à jour l’indice de gauche ou de droite. Si le pivot est égal à l’indice gauche, il faut décrémenter l’indice de droite. Dans le cas contraire, il faut incrémenter l’indice gauche.
+4. Suite à cette vérification, et à l’échange du pivot s’il y avait lieu, il faut mettre à jour l’indice de gauche ou de droite. Si le pivot est égal à l’indice gauche, il faut décrémenter l’indice de droite. Dans le cas contraire, il faut incrémenter l’indice gauche.
 
-- Répéter les étapes 3 et 4 jusqu'à ce que l’indice de gauche soit égal à l’indice de droite.
+5. Répéter les étapes 3 et 4 jusqu'à ce que l’indice de gauche soit égal à l’indice de droite.
 
-- Finalement, nous devons utiliser la récursivité. Si l’indice minimum est plus petit que le pivot - 1, il faut rappeler le tri rapide avec la première partie des éléments à trier (du début jusqu'au pivot - 1). Et si l’indice maximum est plus grand que le pivot + 1, il faut rappeler le tri rapide avec la dernière partie (du pivot + 1 jusqu'à la fin).
+6. Finalement, nous devons utiliser la récursivité. Si l’indice minimum est plus petit que le pivot - 1, il faut rappeler le tri rapide avec la première partie des éléments à trier (du début jusqu'au pivot - 1). Et si l’indice maximum est plus grand que le pivot + 1, il faut rappeler le tri rapide avec la dernière partie (du pivot + 1 jusqu'à la fin).
 
 ## Implémentation
 
