@@ -21,3 +21,23 @@ Bien que la compréhension de l’efficacité du tri rapide ne soit pas évident
 - Répéter les étapes 3 et 4 jusqu'à ce que l’indice de gauche soit égal à l’indice de droite.
 
 - Finalement, nous devons utiliser la récursivité. Si l’indice minimum est plus petit que le pivot - 1, il faut rappeler le tri rapide avec la première partie des éléments à trier (du début jusqu'au pivot - 1). Et si l’indice maximum est plus grand que le pivot + 1, il faut rappeler le tri rapide avec la dernière partie (du pivot + 1 jusqu'à la fin).
+
+## Implémentation
+
+```cpp
+void quickSort(int iMin, int iMax) {
+  int g = iMin, p = iMin, d = iMax;
+  
+  while (g != d) {
+    if (collection[g] > collection[d]) {
+      swap(collection[g], collection[d]);
+      p = g + d - p;
+    }
+
+    (p == g) ? d-- : g++;    
+  }
+  
+  if (iMin < p - 1) quickSort(iMin, p - 1);
+  if (iMax > p + 1) quickSort(p + 1, iMax);  
+}
+```
