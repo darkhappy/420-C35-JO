@@ -24,6 +24,8 @@ Bien que la compréhension de l’efficacité du tri rapide ne soit pas évident
 
 ## Implémentation
 
+Un exemple d'implémentation du tri rapide:
+
 ```cpp
 void quickSort(int iMin, int iMax) {
   int g = iMin, p = iMin, d = iMax;
