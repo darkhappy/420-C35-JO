@@ -27,8 +27,8 @@ Bien que la compréhension de l’efficacité du tri rapide ne soit pas évident
 Un exemple d'implémentation du tri rapide:
 
 ```cpp
-void quickSort(int iMin, int iMax) {
-  int g = iMin, p = iMin, d = iMax;
+void quickSort(long iMin, long iMax) {
+  long g = iMin, p = iMin, d = iMax;
   
   while (g != d) {
     if (collection[g] > collection[d]) {
