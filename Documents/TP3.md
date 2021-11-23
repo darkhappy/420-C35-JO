@@ -25,7 +25,7 @@ La classe « Folder » contient un nom et une liste statique pour chacun des typ
 
 ![](Images/FolderUML.png)
 
-Étant donnée le contexte extraordinaire, nous n'avons pu implémenter certaines structures de données, dont la liste. Nous utiliserons donc la liste statique du langage C++ nommée « vector ». En plus de pouvoir utiliser les méthodes « push_back » et « pop_back » afin d'ajouter et retirer un élément en fin de liste, la classe « vector » s'utilise exactement comme un tableau :
+Nous utiliserons la liste statique du langage C++ nommée « vector ». En plus de pouvoir utiliser les méthodes « push_back » et « pop_back » afin d'ajouter et retirer un élément en fin de liste, la classe « vector » s'utilise exactement comme un tableau :
 
 ```cpp
 folders.push_back(new Folder("Nom")); // Ajout d'un dossier « Nom » à la liste de dossiers
@@ -269,17 +269,17 @@ Voici un exemple de ce que pourrait être un fichier texte représentant un clas
 
 ```
 <F Dossier>
-  <F Sous‐dossier>
-    <N Autre note>
-      Contenu autre note
-    </N>
-  </F>
-  <N Note avec un nom trop long>
-    Contenu note avec un nom trop long
-  </N>
+<F Sous‐dossier>
+<N Autre note>
+Contenu autre note
+</N>
+</F>
+<N Note avec un nom trop long>
+Contenu note avec un nom trop long
+</N>
 </F>
 <H Fichier encode>
-  143 80 95 165 247
+143 80 95 165 247
 </H>
 ```
 
