@@ -287,9 +287,10 @@ Voici un exemple de ce que pourrait être un fichier texte représentant un clas
 
 Projets de base selon l'environnement de développement et le système d'exploitation :
 
-- [Visual Studio sous Windows](Fichiers/TP5VS.zip)
-- [Visual Code sous Windows](Fichiers/TP5VCWindows.zip)
 - [Visual Code sous Linux](Fichiers/TP5VCLinux.zip)
+- [Visual Code sous Windows](Fichiers/TP5VCWindows.zip)
+- [Visual Studio sous Windows](Fichiers/TP5VS.zip)
+- [XCode sous MacOS](Fichiers/TP5XC.zip)
 
 # Barème #
 
