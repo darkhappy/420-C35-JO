@@ -38,17 +38,23 @@ Un parcours consiste à lister toutes les données d'une structure. Mais puisque
 
 ### Préfixe
 
+![Préfixe](Images/prefixe.png)
+
 - Ajouter la donnée du noeud courant au parcours.
 - Diriger le noeud courant vers la branche de gauche s'il y a.
 - Diriger le noeud courant vers la branche de droite s'il y a.
 
 ### Infixe
 
+![Infixe](Images/infixe.png)
+
 - Diriger le noeud courant vers la branche de gauche s'il y a.
 - Ajouter la donnée du noeud courant au parcours.
 - Diriger le noeud courant vers la branche de droite s'il y a.
 
 ### Postfixe
+
+![Postfixe](Images/postfixe.png)
 
 - Diriger le noeud courant vers la branche de gauche s'il y a.
 - Diriger le noeud courant vers la branche de droite s'il y a.
