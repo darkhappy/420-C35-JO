@@ -287,9 +287,9 @@ Voici un exemple de ce que pourrait être un fichier texte représentant un clas
 
 Projets de base selon l'environnement de développement et le système d'exploitation :
 
-- [Visual Studio sous Windows](TP5VS.zip)
-- [Visual Code sous Windows](TP5VCWindows.zip)
-- [Visual Code sous Linux](TP5VCLinux.zip)
+- [Visual Studio sous Windows](Fichiers/TP5VS.zip)
+- [Visual Code sous Windows](Fichiers/TP5VCWindows.zip)
+- [Visual Code sous Linux](Fichiers/TP5VCLinux.zip)
 
 # Barème #
 
