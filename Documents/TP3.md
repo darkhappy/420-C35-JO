@@ -303,7 +303,7 @@ Ajustement lors de redimension / 1<br>
 Centrage et tronquage des titres sous les icônes / 2<br>
 Dossiers suivis des notes triés (rapidement) en ordre alphabétique / 2<br>
 
-**Navigation / 8**<br>
+**Navigation / 7**<br>
 Click sur dossier, dossier parent, et note / 3<br>
 Sélections, et désélections d'éléments / 2<br>
 Gestion du menu contextuel / 2<br>
@@ -312,7 +312,7 @@ Gestion du menu contextuel / 2<br>
 Création, renommage et suppression d’éléments / 5<br>
 Modification du contenu de note / 1<br>
 
-**Structures / 5**<br>
+**Structures / 6**<br>
 Pile dynamique / 1<br>
 File dynamique / 1<br>
 Liste linéaire / 1<br>
