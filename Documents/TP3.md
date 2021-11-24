@@ -298,7 +298,7 @@ Projets de base selon l'environnement de développement et le système d'exploit
 Affichage du chemin / 1<br>
 Ajustement lors de redimension / 1<br>
 Centrage et tronquage des titres sous les icônes / 2<br>
-Dossiers suivis des notes triés en ordre alphabétique / 2<br>
+Dossiers suivis des notes triés (rapidement) en ordre alphabétique / 2<br>
 
 **Navigation / 8**<br>
 Click sur dossier, dossier parent, et note / 3<br>
@@ -317,12 +317,12 @@ Arbre binaire de recherche dynamique / 2<br>
 
 **Total / 25**
 
-**Bonus / 10**
-Arbre A.V.L. / 3<br>
-File de priorité dynamique / 2<br>
-Arbre de Huffman / 1<br>
-Encodage et Décodage statique de Huffman / 2<br>
-Sauvegarde et Chargement / 2<br>
+***Bonus / 10***<br>
+*Arbre A.V.L. / 3*<br>
+*File de priorité dynamique / 2*<br>
+*Arbre de Huffman / 1*<br>
+*Encodage et Décodage statique de Huffman / 2*<br>
+*Sauvegarde et Chargement / 2*<br>
 
 *-1 par non respect des normes.*<br>
 *-1 par erreur lors de la compilation.*<br>
