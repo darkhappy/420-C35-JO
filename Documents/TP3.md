@@ -309,20 +309,20 @@ Gestion du menu contextuel / 2<br>
 Création, renommage et suppression d’éléments / 5<br>
 Modification du contenu de note / 1<br>
 
-**Structures / 10**<br>
+**Structures / 5**<br>
 Pile dynamique / 1<br>
 File dynamique / 1<br>
-File de priorité dynamique / 1<br>
 Liste statique / 1<br>
-Arbre binaire de recherche dynamique / 1<br>
+Arbre binaire de recherche dynamique / 2<br>
+
+**Total / 25**
+
+**Bonus / 10**
 Arbre A.V.L. / 3<br>
+File de priorité dynamique / 2<br>
+Arbre de Huffman / 1<br>
+Encodage et Décodage statique de Huffman / 2<br>
 Sauvegarde et Chargement / 2<br>
-
-**Huffman / 3**<br>
-Encodage statique / 1<br>
-Decodage statique / 2<br>
-
-**Total / 33**
 
 *-1 par non respect des normes.*<br>
 *-1 par erreur lors de la compilation.*<br>
