@@ -305,7 +305,7 @@ Dossiers suivis des notes triés (rapidement) en ordre alphabétique / 2<br>
 
 **Navigation / 8**<br>
 Click sur dossier, dossier parent, et note / 3<br>
-Sélections, et désélections d'éléments / 3<br>
+Sélections, et désélections d'éléments / 2<br>
 Gestion du menu contextuel / 2<br>
 
 **Opérations / 6**<br>
@@ -316,7 +316,7 @@ Modification du contenu de note / 1<br>
 Pile dynamique / 1<br>
 File dynamique / 1<br>
 Liste statique / 1<br>
-Arbre binaire de recherche dynamique / 2<br>
+Arbre binaire de recherche dynamique / 3<br>
 
 **Total / 25**
 
