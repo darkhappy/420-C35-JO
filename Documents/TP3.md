@@ -315,7 +315,7 @@ Modification du contenu de note / 1<br>
 **Structures / 5**<br>
 Pile dynamique / 1<br>
 File dynamique / 1<br>
-Liste statique / 1<br>
+Liste linéaire / 1<br>
 Arbre binaire de recherche dynamique / 3<br>
 
 **Total / 25**
