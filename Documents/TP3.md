@@ -290,9 +290,10 @@ Contenu note avec un nom trop long
 Projets de base selon l'environnement de développement et le système d'exploitation :
 
 - [Visual Code sous Linux](Fichiers/TP5VCLinux.zip)
+- [Visual Code sous MacOS](Fichiers/TP5VCMacOS.zip)
+- [XCode sous MacOS](Fichiers/TP5XC.zip)
 - [Visual Code sous Windows](Fichiers/TP5VCWindows.zip)
 - [Visual Studio sous Windows](Fichiers/TP5VS.zip)
-- [XCode sous MacOS](Fichiers/TP5XC.zip)
 
 # Barème #
 
