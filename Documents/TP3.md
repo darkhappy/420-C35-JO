@@ -3,14 +3,16 @@
 Le dernier travail pratique en est un d'intégration dans lequel la pile dynamique, la file dynamique, la file de priorité dynamique, la liste statique et l'arbre binaire de recherche dynamique seront nécessaires :
 
 ```cpp
+#include <string>
 #include <vector>
 #include "Stack.hpp"
 #include "Queue.hpp"
-#include "PriorityQueue.hpp"
+// #include "PriorityQueue.hpp"
 #include "BSTree.hpp"
 // #include "AVLTree.hpp"
-#include "HuffmanNode.hpp"
-#include "HuffmanCode.hpp"
+// #include "Huffman.hpp"
+
+using namespace std;
 ```
 
 ## Arborescence ##
