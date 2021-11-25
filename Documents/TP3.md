@@ -293,6 +293,7 @@ Projets de base selon l'environnement de développement et le système d'exploit
 - [Visual Code sous MacOS](Fichiers/TP5VCMacOS.zip)
 - [XCode sous MacOS](Fichiers/TP5XC.zip)
 - [Visual Code sous Windows](Fichiers/TP5VCWindows.zip)
+- [CLion sous Windows](Fichiers/TP5CLWindows.zip)
 - [Visual Studio sous Windows](Fichiers/TP5VS.zip)
 
 # Barème #
