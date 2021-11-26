@@ -316,12 +316,13 @@ Modification du contenu de note / 1<br>
 **Structures / 6**<br>
 Pile dynamique / 1<br>
 File dynamique / 1<br>
-Liste linéaire / 1<br>
+Liste statique / 1<br>
 Arbre binaire de recherche dynamique / 3<br>
 
 **Total / 25**
 
 ***Bonus / 10***<br>
+*Liste statique / 2*<br>
 *Arbre A.V.L. / 3*<br>
 *File de priorité dynamique / 2*<br>
 *Arbre de Huffman / 1*<br>

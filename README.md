@@ -23,7 +23,6 @@
 - [Langage C](Documents/C.md)
 - [Pointeur](Documents/Pointer.md)
 - [Tri rapide](Documents/QuickSort.md)
-- [Arbre binaire de recherche](Documents/BinarySearchTree.md)
 
 ## Structures de données
 
@@ -31,6 +30,7 @@
 - [File statique](Documents/ArrayQueue.md)
 - [Pile dynamique](Documents/Stack.md)
 - [File dynamique](Documents/Queue.md)
+- [Arbre binaire de recherche dynamique](Documents/BinarySearchTree.md)
 
 ## Ateliers
 
