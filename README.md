@@ -15,14 +15,15 @@
 
 ## Références
 
-- [Données](Documents/Data.md)
-- [Machine](Documents/PC.md)
-- [Assembleur](Documents/ASM.md)
-- [Exécution](Documents/Execution.md)
-- [Sécurité](Documents/Securite.md)
+- [Données numériques](Documents/Data.md)
+- [Ordinateur personnel](Documents/PC.md)
+- [Langage Assembleur](Documents/ASM.md)
+- [Exécution d'un programme](Documents/Execution.md)
+- [Sécurité logicielle](Documents/Securite.md)
 - [Langage C](Documents/C.md)
 - [Pointeur](Documents/Pointer.md)
 - [Tri rapide](Documents/QuickSort.md)
+- [Encodage de Huffman](Documents/Huffman.md)
 
 ## Structures de données
 
