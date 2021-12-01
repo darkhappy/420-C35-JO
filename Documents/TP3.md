@@ -326,7 +326,8 @@ Arbre binaire de recherche dynamique / 3<br>
 *Arbre A.V.L. / 3*<br>
 *File de priorité dynamique / 2*<br>
 *Arbre de Huffman / 1*<br>
-*Encodage et Décodage statique de Huffman / 2*<br>
+*Encodage de Huffman / 1*<br>
+*Chiffrement et Déchiffrement de Huffman / 2*<br>
 *Sauvegarde et Chargement / 2*<br>
 
 *-1 par non respect des normes.*<br>
