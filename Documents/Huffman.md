@@ -56,7 +56,7 @@ Finalement, lorsque la file de priorité contient qu'un seul noeud de Huffman, i
 
 ## Encodage
 
-Une fois l'arbre de Huffman construit, un parcours de cet arbre, toujours à partir de la racine, doit être effectué afin de déterminer l'encodage de chacun des caractères. Si le parcours se dirige vers la gauche (pointeur rouge), un 0 est ajouté à l'encodage. Et si le parcours se dirige vers la droite (pointeur vert), un 1 est ajouté à l'encodage :
+Une fois l'arbre de Huffman construit, un parcours de cet arbre, toujours à partir de la racine, doit être effectué afin de déterminer l'encodage de chacun des caractères. Si le parcours se dirige vers la gauche (pointeur orange), un 0 est ajouté à l'encodage. Et si le parcours se dirige vers la droite (pointeur vert), un 1 est ajouté à l'encodage :
 
 ![](Images/HuffmanH.png)
 
