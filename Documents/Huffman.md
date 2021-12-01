@@ -1,4 +1,4 @@
-# Codage de Huffman
+# Encodage de Huffman
 
 Le codage de Huffman permet à la fois de chiffrer des données et de les compresser sans perte.
 
