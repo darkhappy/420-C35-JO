@@ -24,9 +24,11 @@ Nous pouvons constater la grande amélioration de la structure des données pour
 
 ### Rotations
 
-L'équilibrage se fait via des rotations sur des noeuds:
+L'équilibrage se fait via des rotations sur des noeuds.
 
 ![Rotation](Images/NodeRotation.png)
+
+Pour une rotation vers la gauche à partir du noeud (A):
 
 - L’enfant de droite (N) devient la nouvelle racine.
 - L’enfant de gauche (G), de la nouvelle racine (N), devient l’enfant de droite de l’ancienne racine (A).
@@ -42,12 +44,12 @@ Indice d'équilibre = Hauteur du sous-arbre de droite - Hauteur du sous-arbre de
 
 Et selon certains résultats, des opérations devront être effectuées:
 
-- -2: Rotation vers la droite
-- &nbsp;2: Rotation vers la gauche
+- (-2): Rotation vers la droite
+- (2): Rotation vers la gauche
 
 #### Exception
 
 Il y a une exception à gérer dans deux contextes bien précis:
 
-- Indice d'équilibre -2 et indice d'équilibre de l'enfant 1: Double-rotation gauche-droite.
-- Indice d'équilibre 2 et indice d'équilibre de l'enfant -1: Double-rotation droite-gauche.
+- Indice d'équilibre (-2) et indice d'équilibre de l'enfant (1): Double-rotation gauche-droite.
+- Indice d'équilibre (2) et indice d'équilibre de l'enfant (-1): Double-rotation droite-gauche.
