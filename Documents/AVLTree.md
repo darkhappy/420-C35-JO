@@ -6,11 +6,11 @@ L'arbre A.V.L. a exactement les mêmes fonctionnalités et utilités que l'arbre
 
 Puisqu'il n'est pas possible de connaître d'avance dans quel ordre les données seront ajoutées dans un arbre binaire de recherche, la performance de recherche ne peut donc pas être garantie.
 
-Par exemple, si l'on ajoute, dans l'ordre, les données suivantes à un arbre binaire de recherche:
+Par exemple, si l'on ajoute les mêmes données, dans le même ordre, dans les deux arbres:
 
-*[Image]*
+![Arbre binaire de recherche vs. Arbre A.V.L.](Images/BSTvsAVL.png)
 
-Nous pouvons remarquer que cette structure de donnée devient inutile puisqu'une simple liste offrirait la même performance de recherche.
+Nous pouvons facilement déduire quelle structure offrira la meilleure performance de recherche.
 
 ## Équilibre
 
