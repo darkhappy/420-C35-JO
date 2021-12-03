@@ -14,13 +14,7 @@ Nous pouvons facilement déduire quelle structure offrira la meilleure performan
 
 ## Équilibre
 
-L'arbre A.V.L. vient ajouter un mécanisme d'équilibrage afin de s'assurer de l'optimalité de la performance des recherches.
-
-En reprenant l'exemple précédent, mais avec un Arbre A.V.L.:
-
-*[Image]*
-
-Nous pouvons constater la grande amélioration de la structure des données pour la recherche.
+L'arbre A.V.L. vient donc ajouter un mécanisme d'équilibrage a l'arbre binaire de recherche afin de s'assurer, en tout temps, de l'optimalité de la performance des recherches.
 
 ### Rotations
 
