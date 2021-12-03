@@ -8,13 +8,13 @@ Puisqu'il n'est pas possible de connaître d'avance dans quel ordre les données
 
 Par exemple, si l'on ajoute les mêmes données, dans le même ordre, dans les deux arbres:
 
-![Arbre binaire de recherche vs. Arbre A.V.L.](Images/BSTvsAVL.png)
+![Arbre binaire de recherche vs Arbre A.V.L.](Images/BSTvsAVL.png)
 
 Nous pouvons facilement déduire quelle structure offrira la meilleure performance de recherche.
 
 ## Équilibre
 
-L'arbre A.V.L. vient donc ajouter un mécanisme d'équilibrage a l'arbre binaire de recherche afin de s'assurer, en tout temps, de l'optimalité de la performance des recherches.
+L'arbre A.V.L. vient donc ajouter un mécanisme d'équilibrage à l'arbre binaire de recherche afin de s'assurer, en tout temps, de l'optimalité de la performance des recherches.
 
 ### Rotations
 
