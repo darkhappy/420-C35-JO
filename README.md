@@ -32,6 +32,7 @@
 - [Pile dynamique](Documents/Stack.md)
 - [File dynamique](Documents/Queue.md)
 - [Arbre binaire de recherche dynamique](Documents/BinarySearchTree.md)
+- [Arbre binaire de recherche A.V.L. dynamique](Documents/AVLTree.md)
 
 ## Ateliers
 
