@@ -44,3 +44,8 @@
 
 - [Recherche de chemin](Documents/TP1.md)
 - [Classeur](Documents/TP3.md)
+
+## Examens
+
+- [Mi-session](Documents/EXA1.md)
+- [Fin de session](Documents/EXA2.md)
