@@ -11,7 +11,7 @@ Préparation pour l'examen de fin de session.
 
 - Connaître les étapes du tri rapide.
 - ~~Être capable d'implémenter un tri rapide pour une structure statique et dynamique~~.
-- Être capable d'utiliser le tri rapide dans un contexte concret.
+- ~~Être capable d'utiliser le tri rapide dans un contexte concret.~~
 
 ## Arbre binaire de recherche
 
