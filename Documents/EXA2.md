@@ -10,7 +10,7 @@ Préparation pour l'examen de fin de session.
 ## Tri rapide
 
 - Connaître les étapes du tri rapide.
-- Être capable d'implémenter un tri rapide pour une structure statique ~~et dynamique~~.
+- ~~Être capable d'implémenter un tri rapide pour une structure statique et dynamique~~.
 - Être capable d'utiliser le tri rapide dans un contexte concret.
 
 ## Arbre binaire de recherche
@@ -29,7 +29,7 @@ Préparation pour l'examen de fin de session.
 ## Arbre A.V.L.
 
 - Connaître ce qu'est un arbre A.V.L. et son comportement.
-- Être capable d'implémenter la hauteur ~~et la rotation~~ dans un arbre binaire.
+- ~~Être capable d'implémenter la hauteur et la rotation dans un arbre binaire.~~
 - Être capable de démontrer le fonctionnement d'un arbre A.V.L.
 
 ## Arbre B

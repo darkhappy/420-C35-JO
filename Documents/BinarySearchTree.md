@@ -1,6 +1,6 @@
 # Arbre binaire de recherche
 
-Les données d'un arbre binaire de recherche sont uniques, comparables, et ordonnées d'une façon bien précise :
+Les données d'un arbre binaire de recherche sont uniques, comparables, et ordonnées d'une façon bien précise:
 
 ![Arbre Binaire de Recherche](Images/BinarySearchTree.png)
 
@@ -14,7 +14,7 @@ La recherche s'effectue tout comme l'ajout. Mais plutôt que de créer un nouvea
 
 ## Retrait
 
-Trois cas peuvent se présenter lors du retrait d'un noeud dans un arbre binaire de recherche :
+Trois cas peuvent se présenter lors du retrait d'un noeud dans un arbre binaire de recherche:
 
 ### Feuille
 
