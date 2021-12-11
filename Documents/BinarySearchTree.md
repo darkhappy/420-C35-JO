@@ -59,3 +59,11 @@ Un parcours consiste à lister toutes les données d'une structure. Mais puisque
 - Diriger le noeud courant vers la branche de gauche s'il y a.
 - Diriger le noeud courant vers la branche de droite s'il y a.
 - Ajouter la donnée du noeud courant au parcours.
+
+### Largeur
+
+![Largeur](Images/breadthFirst.png)
+
+- De gauche à droite.
+- De haut en bas.
+
