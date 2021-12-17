@@ -64,8 +64,8 @@ Donc, l'encodage de chacun des caractères serait :
 
 ```
   1010
-a 1011
-h 000
+a 000
+h 1011
 r 001
 c 100
 e 01
